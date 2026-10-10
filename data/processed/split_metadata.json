@@ -1,0 +1,9 @@
+{
+  "total_samples": 4000,
+  "train_samples": 2800,
+  "val_samples": 600,
+  "test_samples": 600,
+  "features_count": 15,
+  "target_variable": "resale_price_usd",
+  "random_seed": 42
+}

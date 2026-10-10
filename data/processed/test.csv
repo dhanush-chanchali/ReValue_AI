@@ -1,0 +1,601 @@
+device_id,device_type,brand,model_name,os,age_months,original_price_usd,ram_gb,storage_gb,screen_size_inch,battery_health_pct,condition,has_original_box,has_original_charger,has_screen_damage,has_body_scratches,resale_price_usd
+DEV-13788,Smartphone,Apple,iPhone 15 Pro,iOS,24,1099.0,8,128,5.9,90.9,Heavily Used,0,1,1,1,319.33
+DEV-10996,Laptop,Dell,Latitude 5420,Windows,51,1099.0,32,256,15.4,71.4,Good,1,0,0,0,341.67
+DEV-11679,Smartphone,Samsung,Galaxy S21,Android,21,399.0,8,512,6.7,81.9,Good,1,1,0,0,256.5
+DEV-10153,Smartphone,Samsung,Galaxy S20,Android,40,599.0,12,64,5.8,80.8,Pristine,1,1,0,0,291.5
+DEV-13147,Smartphone,Google,Pixel 8,Android,10,1199.0,8,128,6.4,91.0,Heavily Used,1,1,1,1,372.24
+DEV-13707,Laptop,Asus,ZenBook 14,Windows,53,1999.0,8,1024,13.5,78.0,Pristine,1,1,0,0,745.34
+DEV-12908,Laptop,Lenovo,Legion 5 Pro,Linux,41,799.0,16,256,14.3,,Good,1,1,0,0,349.84
+DEV-12837,Smartphone,Apple,iPhone 14 Pro,iOS,14,899.0,4,256,6.8,94.2,Good,0,1,0,0,745.12
+DEV-10580,Smartphone,Xiaomi,Redmi Note 10,Android,14,599.0,8,256,6.3,100.0,Pristine,0,1,0,0,477.96
+DEV-11470,Smartphone,Samsung,Galaxy S22,Android,36,399.0,12,256,6.4,80.1,Good,1,1,0,0,191.85
+DEV-10703,Laptop,Dell,XPS 15,Windows,29,599.0,8,512,14.7,84.2,Heavily Used,1,1,0,1,176.55
+DEV-11212,Laptop,Dell,Latitude 5420,Windows,41,1499.0,8,512,14.6,77.0,Fair,0,1,0,1,440.93
+DEV-13343,Smartphone,Apple,iPhone 12,iOS,28,899.0,4,128,6.2,88.9,Good,0,1,0,0,582.98
+DEV-10896,Laptop,Lenovo,ThinkPad T14,Windows,26,599.0,8,512,,90.8,Pristine,1,1,0,0,442.8
+DEV-13308,Laptop,Dell,Latitude 5420,Windows,24,599.0,16,256,13.9,96.6,Pristine,1,1,0,0,450.21
+DEV-10487,Laptop,Apple,MacBook Air M2,macOS,23,999.0,16,256,13.5,89.5,Heavily Used,0,0,0,1,362.91
+DEV-10559,Laptop,Dell,XPS 13,Windows,5,1999.0,8,1024,,97.5,Good,0,1,0,1,1772.67
+DEV-11141,Smartphone,Google,Pixel 5,Android,32,799.0,8,128,6.3,86.0,Good,0,1,0,0,360.13
+DEV-11119,Smartphone,Samsung,Galaxy S21,Android,26,599.0,12,256,6.2,95.0,Heavily Used,0,1,0,1,171.02
+DEV-12849,Smartphone,Apple,iPhone 11,iOS,8,1199.0,6,64,5.9,99.3,Pristine,1,1,0,0,1139.05
+DEV-10512,Laptop,Apple,MacBook Pro 16 M2,macOS,27,2499.0,16,256,13.7,81.6,Fair,1,1,1,1,1096.36
+DEV-10633,Smartphone,Samsung,Galaxy Z Flip 4,Android,53,899.0,8,128,5.8,80.0,Good,1,1,0,1,258.86
+DEV-13433,Smartphone,Apple,iPhone 11,iOS,5,799.0,4,128,6.8,100.0,Good,1,1,0,0,759.05
+DEV-11664,Laptop,HP,Omen 16,Windows,52,799.0,16,512,14.5,71.1,Heavily Used,1,1,0,1,127.21
+DEV-11012,Smartphone,Apple,iPhone 12,iOS,33,799.0,6,512,6.0,83.9,Fair,1,1,0,1,385.29
+DEV-11931,Smartphone,Apple,iPhone 15 Pro,iOS,3,799.0,6,256,6.0,97.5,Good,0,1,0,0,759.05
+DEV-11150,Laptop,Asus,ROG Zephyrus G14,Windows,52,1099.0,16,512,15.6,79.3,Good,0,1,0,0,315.05
+DEV-12838,Laptop,Apple,MacBook Air M1,macOS,36,999.0,8,256,14.7,82.2,Good,0,1,0,0,636.14
+DEV-13739,Laptop,Lenovo,ThinkPad X1 Carbon,Windows,44,1099.0,8,512,15.3,74.9,Pristine,1,0,0,0,410.08
+DEV-10116,Smartphone,OnePlus,OnePlus 10 Pro,Android,25,399.0,8,256,6.2,91.1,Fair,0,1,0,1,163.77
+DEV-10740,Laptop,Lenovo,IdeaPad 5,Windows,18,1999.0,8,256,15.7,92.0,Good,0,1,0,1,1150.72
+DEV-13676,Laptop,HP,Pavilion 15,Windows,32,799.0,16,256,16.0,86.2,Good,1,1,0,1,367.98
+DEV-11974,Smartphone,Apple,iPhone 14 Pro,iOS,6,1199.0,4,128,5.9,95.3,Good,0,1,0,0,1041.38
+DEV-11081,Laptop,Dell,Inspiron 15,Windows,3,799.0,16,1024,15.3,100.0,Fair,0,1,1,1,470.57
+DEV-11810,Smartphone,OnePlus,OnePlus 10 Pro,Android,37,1199.0,8,128,6.4,86.7,Pristine,0,0,0,0,500.99
+DEV-10830,Smartphone,OnePlus,OnePlus 9 Pro,Android,2,599.0,6,128,6.1,94.4,Fair,1,1,1,1,301.32
+DEV-10119,Laptop,HP,Spectre x360,Windows,33,599.0,16,256,15.7,86.5,Good,1,1,0,0,290.58
+DEV-10656,Smartphone,Apple,iPhone 11,iOS,25,799.0,4,256,6.2,92.0,Heavily Used,0,0,0,1,256.4
+DEV-13634,Smartphone,Samsung,Galaxy S22,Android,51,599.0,8,512,6.4,75.4,Fair,0,1,0,1,151.06
+DEV-13692,Laptop,Apple,MacBook Air M2,macOS,38,1999.0,16,1024,14.3,91.8,Fair,0,1,0,1,965.94
+DEV-13905,Laptop,Apple,MacBook Air M2,macOS,19,1599.0,8,512,15.0,98.6,Fair,0,1,1,1,788.86
+DEV-10635,Laptop,Dell,XPS 13,Windows,24,1499.0,16,256,15.9,91.0,Good,1,0,0,0,814.45
+DEV-10369,Laptop,Asus,TUF Gaming A15,Windows,41,599.0,16,512,15.6,78.9,Heavily Used,0,1,0,1,123.51
+DEV-10268,Laptop,Dell,Latitude 5420,Windows,39,599.0,16,256,15.8,77.9,Heavily Used,0,1,0,1,132.06
+DEV-12703,Smartphone,Samsung,Galaxy S22,Android,46,1199.0,8,128,6.0,,Good,1,1,0,0,441.59
+DEV-12983,Laptop,Apple,MacBook Air M1,macOS,24,999.0,8,256,14.2,78.0,Pristine,1,1,0,0,869.44
+DEV-12870,Smartphone,Samsung,Galaxy Z Flip 4,Android,6,899.0,8,128,6.0,94.5,Fair,0,0,1,1,424.81
+DEV-12914,Smartphone,Apple,iPhone 14 Pro,iOS,37,799.0,6,128,6.1,85.9,Heavily Used,0,1,0,1,243.18
+DEV-10046,Smartphone,Google,Pixel 6,Android,39,799.0,8,128,6.3,68.6,Fair,1,1,0,1,229.61
+DEV-13421,Smartphone,Samsung,Galaxy Z Flip 4,Android,29,799.0,8,128,6.1,90.8,Good,0,1,0,0,420.72
+DEV-13697,Laptop,Apple,MacBook Pro 16 M2,macOS,36,1299.0,8,2048,16.0,81.3,Fair,1,0,1,1,498.67
+DEV-10991,Laptop,Dell,XPS 15,Windows,5,1999.0,16,512,14.9,91.9,Good,0,1,0,0,1783.45
+DEV-10876,Smartphone,Google,Pixel 5,Android,51,599.0,12,256,5.9,75.1,Pristine,0,1,0,0,223.88
+DEV-10773,Laptop,Lenovo,IdeaPad 5,Windows,29,799.0,8,512,14.4,81.7,Good,0,1,0,0,437.77
+DEV-11219,Smartphone,Apple,iPhone 11,iOS,37,1199.0,8,128,5.8,76.0,Fair,0,1,1,1,434.79
+DEV-11126,Smartphone,Apple,iPhone 11,iOS,11,1099.0,6,64,6.1,90.8,Good,1,1,0,0,1044.05
+DEV-10004,Smartphone,Xiaomi,Xiaomi 12 Pro,Android,18,899.0,6,64,6.7,88.4,Good,1,1,0,0,508.4
+DEV-13051,Smartphone,Samsung,Galaxy S20,Android,12,899.0,8,128,6.6,90.0,Good,1,0,0,0,613.98
+DEV-11595,Smartphone,Samsung,Galaxy S21,Android,5,399.0,6,256,6.8,100.0,Good,0,1,0,0,353.73
+DEV-13124,Laptop,Dell,Inspiron 15,Windows,24,1999.0,8,2048,15.4,81.9,Good,0,1,0,0,1155.92
+DEV-12311,Laptop,Dell,XPS 13,Windows,37,1499.0,16,512,16.1,83.0,Good,0,1,0,0,705.49
+DEV-13040,Smartphone,Apple,iPhone 14 Pro,iOS,16,899.0,6,256,5.8,94.0,Good,0,0,0,1,617.9
+DEV-13827,Smartphone,Samsung,Galaxy Z Flip 4,Android,18,399.0,12,128,6.4,89.7,Pristine,0,0,0,0,292.93
+DEV-12491,Laptop,Apple,MacBook Pro 16 M2,macOS,22,1299.0,16,1024,14.6,86.0,Pristine,1,1,0,0,1234.05
+DEV-13050,Laptop,Lenovo,ThinkPad T14,Windows,49,799.0,16,256,15.8,,Fair,0,1,1,1,148.88
+DEV-11077,Smartphone,Apple,iPhone 14 Pro,iOS,36,799.0,8,128,6.0,87.9,Good,1,1,0,1,450.91
+DEV-10837,Smartphone,Google,Pixel 6,Android,18,1199.0,12,128,,93.8,Good,1,1,0,0,823.68
+DEV-10681,Smartphone,Samsung,Galaxy S21,Android,40,399.0,16,512,6.3,77.2,Good,1,1,0,0,179.14
+DEV-11715,Smartphone,Apple,iPhone 15 Pro,iOS,51,999.0,4,128,6.2,80.3,Fair,0,1,1,1,254.87
+DEV-12352,Smartphone,OnePlus,OnePlus 9 Pro,Android,29,899.0,8,128,6.7,86.1,Pristine,0,1,0,0,473.7
+DEV-13413,Laptop,HP,Spectre x360,Windows,50,1499.0,8,512,15.5,74.0,Good,0,1,0,0,449.0
+DEV-12617,Smartphone,Apple,iPhone 14 Pro,iOS,48,999.0,6,128,6.2,82.0,Pristine,0,1,0,0,542.9
+DEV-12361,Laptop,Lenovo,Legion 5 Pro,Windows,10,599.0,8,1024,13.4,98.1,Good,0,1,0,1,463.13
+DEV-12197,Laptop,Lenovo,ThinkPad T14,Windows,51,1099.0,8,512,15.4,77.1,Good,1,1,0,0,340.83
+DEV-11148,Smartphone,Apple,iPhone 12,iOS,5,799.0,6,256,6.8,95.5,Pristine,0,0,0,0,759.05
+DEV-13261,Laptop,HP,Envy 13,Windows,46,1999.0,16,512,13.8,87.7,Good,1,1,0,1,721.7
+DEV-10574,Smartphone,Samsung,Galaxy S22,Android,47,599.0,8,256,6.2,82.1,Fair,0,1,0,1,160.55
+DEV-10050,Smartphone,Samsung,Galaxy S20,Android,42,599.0,8,128,6.5,84.5,Pristine,1,1,0,0,257.85
+DEV-10853,Smartphone,Apple,iPhone 15 Pro,iOS,38,1199.0,8,64,6.6,81.7,Good,0,0,0,0,577.16
+DEV-11982,Laptop,Asus,ZenBook 14,Windows,11,599.0,16,1024,15.1,98.2,Good,1,1,0,0,517.86
+DEV-12774,Smartphone,Samsung,Galaxy Z Flip 4,Android,35,899.0,6,256,5.9,86.0,Pristine,0,0,0,0,429.93
+DEV-11823,Smartphone,Google,Pixel 8,Android,22,399.0,12,128,6.0,87.3,Fair,1,1,0,1,184.42
+DEV-10833,Smartphone,Google,Pixel 5,Android,7,599.0,8,256,6.7,100.0,Good,1,0,0,1,455.76
+DEV-13425,Smartphone,Apple,iPhone 13,iOS,19,799.0,4,128,6.5,100.0,Good,0,1,0,0,596.68
+DEV-11115,Laptop,Lenovo,Legion 5 Pro,Windows,47,1999.0,16,512,,70.6,Good,0,1,0,0,693.16
+DEV-11166,Laptop,HP,Omen 16,Windows,4,1999.0,8,512,13.4,100.0,Good,1,0,0,0,1766.88
+DEV-12518,Laptop,Apple,MacBook Pro 16 M2,macOS,12,999.0,16,512,13.9,90.3,Good,1,1,0,0,949.05
+DEV-11906,Smartphone,Apple,iPhone 14 Pro,iOS,2,899.0,4,128,5.9,98.4,Good,0,0,0,1,782.3
+DEV-10971,Laptop,Asus,ROG Zephyrus G14,Windows,49,799.0,8,256,13.9,76.5,Pristine,0,1,0,0,282.6
+DEV-12701,Smartphone,Samsung,Galaxy S22,Android,7,899.0,12,128,6.4,98.8,Good,0,0,0,0,723.35
+DEV-10399,Laptop,Lenovo,IdeaPad 5,Windows,8,1999.0,16,256,15.2,95.9,Good,0,0,0,0,1558.76
+DEV-12559,Laptop,Asus,TUF Gaming A15,Windows,2,1099.0,32,256,13.4,100.0,Pristine,0,1,0,0,1044.05
+DEV-12368,Laptop,Apple,MacBook Air M1,macOS,53,999.0,16,1024,16.1,67.6,Pristine,0,0,0,0,498.41
+DEV-10019,Smartphone,Samsung,Galaxy S21,Android,53,599.0,6,256,6.7,71.4,Pristine,0,1,0,0,197.24
+DEV-10684,Laptop,Lenovo,IdeaPad 5,Windows,5,799.0,16,256,13.7,91.1,Pristine,1,1,0,0,759.05
+DEV-10035,Smartphone,Xiaomi,Xiaomi 13,Android,10,899.0,8,64,5.9,99.5,Pristine,0,0,0,0,710.69
+DEV-12950,Laptop,Dell,XPS 13,Windows,21,599.0,8,512,13.6,84.4,Pristine,1,1,0,0,449.87
+DEV-13993,Smartphone,Apple,iPhone 15 Pro,iOS,6,999.0,4,128,6.6,95.8,Good,0,1,0,1,864.55
+DEV-12875,Laptop,Apple,MacBook Air M1,macOS,18,999.0,16,256,14.7,86.3,Good,1,1,0,1,857.35
+DEV-10524,Laptop,Asus,ZenBook 14,Linux,36,1499.0,16,1024,13.5,84.4,Good,0,1,0,0,718.34
+DEV-12455,Smartphone,Samsung,Galaxy S20,Android,7,1199.0,8,256,5.8,94.8,Good,0,1,0,0,1021.06
+DEV-10920,Laptop,Lenovo,IdeaPad 5,Windows,24,1099.0,8,1024,13.5,86.7,Good,1,0,0,1,636.16
+DEV-11841,Smartphone,OnePlus,OnePlus 9 Pro,Android,15,799.0,8,256,6.3,95.0,Pristine,1,0,0,0,624.78
+DEV-11890,Smartphone,Samsung,Galaxy S23 Ultra,Android,37,899.0,6,512,6.6,80.9,Pristine,1,0,0,0,413.73
+DEV-10537,Smartphone,Apple,iPhone 15 Pro,iOS,16,899.0,4,256,5.8,92.3,Pristine,0,1,0,0,773.76
+DEV-12806,Laptop,HP,Omen 16,Windows,13,599.0,16,1024,14.9,100.0,Good,1,1,0,0,513.43
+DEV-11705,Smartphone,OnePlus,OnePlus 8T,Android,22,799.0,6,128,6.6,86.0,Good,0,1,0,1,440.23
+DEV-13902,Laptop,Dell,XPS 13,Windows,29,1099.0,8,1024,14.6,88.4,Pristine,1,0,0,0,667.37
+DEV-13110,Smartphone,OnePlus,OnePlus 9 Pro,Android,2,799.0,6,256,6.3,100.0,Good,0,0,0,0,668.69
+DEV-13247,Laptop,HP,Pavilion 15,Windows,27,799.0,16,512,13.7,87.9,Fair,1,1,0,1,365.91
+DEV-10245,Smartphone,Xiaomi,Redmi Note 10,Android,35,399.0,8,64,6.7,88.0,Fair,0,1,1,1,95.0
+DEV-13464,Smartphone,Xiaomi,Xiaomi 11T,Android,20,799.0,8,512,6.4,,Good,1,1,0,0,515.03
+DEV-13175,Laptop,Lenovo,ThinkPad X1 Carbon,Windows,21,799.0,16,2048,15.4,85.4,Good,1,1,0,1,553.56
+DEV-10784,Laptop,Apple,MacBook Air M2,macOS,33,1999.0,16,1024,15.1,81.5,Fair,1,0,0,1,1011.34
+DEV-11409,Laptop,Lenovo,ThinkPad X1 Carbon,Windows,37,599.0,16,512,14.7,89.1,Fair,1,1,0,1,199.66
+DEV-12537,Smartphone,Apple,iPhone 14 Pro,iOS,14,999.0,6,128,6.1,93.6,Heavily Used,1,1,1,1,378.89
+DEV-10154,Smartphone,Samsung,Galaxy S23 Ultra,Android,47,599.0,8,256,6.3,80.9,Good,1,1,0,0,213.27
+DEV-13009,Smartphone,Xiaomi,Redmi Note 10,Android,16,399.0,12,512,5.9,94.3,Fair,1,1,0,1,208.35
+DEV-11686,Laptop,Lenovo,Legion 5 Pro,Windows,25,599.0,32,1024,15.9,83.6,Heavily Used,1,1,0,1,214.92
+DEV-12901,Smartphone,Apple,iPhone 15 Pro,iOS,15,899.0,4,64,6.1,95.7,Good,1,1,0,0,708.92
+DEV-13359,Smartphone,Google,Pixel 8,Android,19,799.0,16,256,6.1,96.2,Good,0,1,0,0,545.74
+DEV-10625,Smartphone,Apple,iPhone 13,iOS,8,1099.0,6,64,5.8,100.0,Pristine,1,1,0,0,1044.05
+DEV-12733,Laptop,Apple,MacBook Air M1,macOS,42,999.0,8,256,13.5,82.1,Good,0,1,0,0,522.13
+DEV-13832,Smartphone,OnePlus,OnePlus 9 Pro,Android,41,899.0,6,128,6.0,83.3,Good,0,1,0,1,297.44
+DEV-11346,Laptop,Lenovo,ThinkPad T14,Windows,3,1099.0,8,512,15.3,100.0,Fair,1,0,0,1,750.34
+DEV-10569,Laptop,HP,Envy 13,Windows,41,799.0,32,256,14.8,,Good,1,1,0,0,338.93
+DEV-13906,Smartphone,Apple,iPhone 13,iOS,7,1099.0,6,128,6.4,97.6,Good,1,1,0,0,1044.05
+DEV-11758,Laptop,Dell,Latitude 5420,Windows,48,1099.0,8,512,15.9,82.5,Heavily Used,1,1,0,1,213.86
+DEV-11816,Laptop,Lenovo,ThinkPad X1 Carbon,Windows,3,799.0,8,512,13.4,95.2,Good,0,0,0,0,708.47
+DEV-12065,Laptop,Lenovo,IdeaPad 5,Windows,41,1499.0,16,2048,14.3,78.4,Fair,0,1,0,1,456.09
+DEV-10127,Laptop,Lenovo,ThinkPad X1 Carbon,Linux,35,1499.0,16,256,15.5,87.3,Good,1,0,0,0,661.25
+DEV-13394,Laptop,Lenovo,ThinkPad X1 Carbon,Windows,10,1999.0,8,512,14.9,91.2,Pristine,1,1,0,0,1899.05
+DEV-13327,Smartphone,Apple,iPhone 12,iOS,9,1099.0,8,64,6.7,94.3,Fair,0,0,0,1,669.87
+DEV-13968,Smartphone,Samsung,Galaxy S23 Ultra,Android,2,1199.0,12,256,,99.2,Pristine,0,1,0,0,1139.05
+DEV-12006,Smartphone,Apple,iPhone 12,iOS,28,1199.0,6,64,6.1,88.8,Good,0,1,0,0,704.03
+DEV-12975,Smartphone,Samsung,Galaxy S21,Android,7,899.0,6,64,6.2,92.4,Heavily Used,1,1,0,1,395.8
+DEV-10980,Smartphone,Xiaomi,Xiaomi 12 Pro,Android,13,1199.0,12,128,6.0,93.6,Good,0,1,0,0,808.64
+DEV-13964,Smartphone,Apple,iPhone 15 Pro,iOS,27,1099.0,6,512,6.0,84.6,Good,1,1,0,1,768.92
+DEV-10190,Smartphone,Apple,iPhone 13,iOS,30,799.0,4,128,6.2,90.2,Good,0,1,0,0,526.42
+DEV-11139,Smartphone,Xiaomi,Redmi Note 10,Android,37,799.0,6,256,6.0,84.8,Good,1,1,0,0,311.81
+DEV-10992,Laptop,Apple,MacBook Air M1,macOS,12,999.0,8,512,15.3,91.9,Good,1,0,0,0,895.44
+DEV-10699,Laptop,Dell,Latitude 5420,Windows,31,599.0,64,512,14.0,82.8,Fair,0,1,0,1,264.45
+DEV-13635,Smartphone,Xiaomi,Xiaomi 13,Android,41,1199.0,8,128,5.8,82.2,Pristine,1,1,0,0,535.82
+DEV-10606,Smartphone,Samsung,Galaxy Z Flip 4,Android,41,899.0,12,256,6.0,88.6,Pristine,1,0,0,0,417.48
+DEV-10180,Smartphone,Apple,iPhone 15 Pro,iOS,47,1199.0,4,64,6.7,72.4,Good,0,1,0,0,538.22
+DEV-10301,Smartphone,Apple,iPhone 12,iOS,22,999.0,4,128,6.6,94.4,Good,0,1,0,0,726.2
+DEV-12544,Laptop,Lenovo,IdeaPad 5,Windows,19,599.0,16,256,13.7,90.7,Good,0,0,0,0,351.54
+DEV-13683,Laptop,Asus,VivoBook 15,Windows,11,599.0,8,512,14.0,99.9,Fair,0,1,0,1,359.43
+DEV-13698,Smartphone,Apple,iPhone 14 Pro,iOS,44,899.0,6,256,6.8,76.6,Fair,1,1,0,1,351.21
+DEV-11060,Laptop,Apple,MacBook Pro 16 M2,macOS,43,2499.0,16,512,15.8,88.1,Fair,0,1,0,1,1150.31
+DEV-13759,Smartphone,Google,Pixel 7 Pro,Android,22,899.0,6,256,6.4,87.1,Good,1,1,0,0,544.02
+DEV-13834,Laptop,Apple,MacBook Pro 16 M2,macOS,19,1999.0,16,1024,16.1,92.6,Heavily Used,1,0,0,1,902.06
+DEV-12565,Smartphone,Apple,iPhone 12,iOS,32,1199.0,8,128,6.3,90.6,Good,0,1,0,0,721.7
+DEV-13984,Smartphone,OnePlus,OnePlus 11,Android,25,399.0,12,256,6.6,89.2,Pristine,1,1,0,0,269.78
+DEV-11069,Smartphone,Xiaomi,Xiaomi 13,Android,23,799.0,12,128,6.2,89.7,Good,1,1,0,0,447.64
+DEV-12524,Laptop,Lenovo,ThinkPad T14,Windows,5,1099.0,16,2048,14.6,95.4,Pristine,1,1,0,0,1044.05
+DEV-12205,Smartphone,Apple,iPhone 13,iOS,39,799.0,4,128,6.3,77.6,Pristine,0,1,0,0,519.49
+DEV-11243,Smartphone,Google,Pixel 7 Pro,Android,42,599.0,8,256,6.1,81.3,Good,0,1,0,1,210.08
+DEV-13243,Smartphone,Samsung,Galaxy S23 Ultra,Android,4,599.0,8,128,6.5,100.0,Good,1,0,0,0,510.75
+DEV-10016,Smartphone,Samsung,Galaxy S23 Ultra,Android,31,799.0,8,256,6.2,92.2,Pristine,1,0,0,0,438.36
+DEV-13120,Laptop,Dell,XPS 13,Windows,23,599.0,8,1024,15.6,91.7,Good,1,1,0,0,354.89
+DEV-13971,Smartphone,Apple,iPhone 14 Pro,iOS,26,1099.0,4,128,6.3,98.2,Good,1,1,0,0,763.39
+DEV-10546,Smartphone,OnePlus,OnePlus 8T,Android,4,599.0,6,256,6.5,100.0,Pristine,1,1,0,0,569.05
+DEV-10658,Laptop,Dell,XPS 15,Linux,19,1099.0,8,512,15.8,87.5,Good,1,0,0,1,697.43
+DEV-13598,Smartphone,Google,Pixel 5,Android,22,399.0,12,256,6.7,91.2,Pristine,0,0,0,0,275.5
+DEV-13067,Smartphone,Google,Pixel 5,Android,9,1199.0,8,128,5.8,100.0,Good,0,0,0,0,870.33
+DEV-13641,Laptop,HP,Omen 16,Windows,38,1999.0,8,512,15.4,84.8,Fair,0,1,1,1,519.63
+DEV-11504,Laptop,Dell,Latitude 5420,Windows,5,1999.0,16,256,14.3,100.0,Pristine,1,0,0,0,1899.05
+DEV-10959,Smartphone,Apple,iPhone 11,iOS,18,899.0,8,128,5.9,96.1,Good,0,1,0,1,695.93
+DEV-12926,Laptop,Asus,VivoBook 15,Windows,18,1999.0,8,256,13.9,98.5,Pristine,0,1,0,0,1480.14
+DEV-12331,Laptop,Apple,MacBook Air M1,macOS,50,1999.0,16,512,13.7,74.5,Heavily Used,1,1,1,1,451.54
+DEV-10797,Laptop,Asus,ZenBook 14,Windows,36,799.0,8,512,13.8,82.6,Heavily Used,1,1,1,1,149.12
+DEV-13348,Smartphone,Google,Pixel 8,Android,50,799.0,6,64,6.5,77.6,Pristine,0,1,0,0,268.52
+DEV-10225,Smartphone,Apple,iPhone 13,iOS,46,1099.0,4,512,6.3,81.2,Pristine,0,1,0,0,683.65
+DEV-12074,Smartphone,Apple,iPhone 11,iOS,47,1099.0,4,128,5.9,81.3,Fair,1,1,1,1,327.01
+DEV-13354,Smartphone,Samsung,Galaxy S23 Ultra,Android,42,899.0,12,512,6.7,88.7,Fair,0,1,0,1,260.17
+DEV-11799,Smartphone,Samsung,Galaxy S20,Android,30,899.0,16,128,6.1,82.7,Fair,1,1,0,1,371.53
+DEV-12485,Smartphone,Samsung,Galaxy S21,Android,16,599.0,8,64,5.9,90.2,Pristine,0,0,0,0,440.27
+DEV-13947,Laptop,Apple,MacBook Air M2,macOS,48,2499.0,32,1024,14.5,79.9,Pristine,0,1,0,0,1645.43
+DEV-13436,Laptop,HP,Envy 13,Windows,17,799.0,16,512,13.8,97.2,Good,1,1,0,0,609.13
+DEV-12277,Laptop,Apple,MacBook Pro 16 M2,macOS,25,1599.0,8,512,15.4,86.4,Good,0,1,0,0,1171.29
+DEV-12085,Laptop,Lenovo,ThinkPad X1 Carbon,Windows,40,599.0,8,256,13.4,76.0,Good,1,1,0,0,229.88
+DEV-11693,Laptop,Lenovo,IdeaPad 5,Windows,50,1999.0,16,1024,15.5,81.6,Heavily Used,1,1,1,1,331.3
+DEV-12797,Laptop,Lenovo,ThinkPad X1 Carbon,Windows,33,1099.0,16,256,14.7,87.2,Good,1,1,0,1,519.23
+DEV-11045,Smartphone,Samsung,Galaxy S21,Android,35,399.0,8,64,6.3,81.7,Good,0,1,0,0,163.74
+DEV-13446,Smartphone,Google,Pixel 6,Android,8,1199.0,6,128,6.2,93.9,Good,0,1,0,1,838.81
+DEV-10469,Smartphone,Xiaomi,Xiaomi 12 Pro,Android,24,899.0,12,128,6.7,93.6,Good,1,1,0,0,515.92
+DEV-10954,Laptop,Asus,TUF Gaming A15,Windows,36,799.0,8,512,14.5,88.8,Good,0,1,0,0,362.95
+DEV-13967,Smartphone,Apple,iPhone 11,iOS,42,899.0,8,128,6.7,88.6,Fair,1,1,0,1,363.02
+DEV-12735,Smartphone,Samsung,Galaxy S20,Android,14,1199.0,6,128,6.0,88.3,Good,1,1,0,0,933.11
+DEV-13841,Laptop,Dell,Inspiron 15,Windows,2,799.0,8,512,13.4,100.0,Good,0,1,0,0,759.05
+DEV-10639,Laptop,Apple,MacBook Air M1,macOS,22,1999.0,16,512,15.2,91.0,Fair,0,0,1,1,914.95
+DEV-13701,Smartphone,Apple,iPhone 12,iOS,8,1099.0,4,256,6.6,100.0,Pristine,0,1,0,0,1044.05
+DEV-11218,Smartphone,Google,Pixel 8,Android,29,399.0,6,512,6.5,90.8,Pristine,1,1,0,0,251.43
+DEV-11158,Laptop,HP,Pavilion 15,Windows,15,1999.0,16,256,14.1,86.3,Pristine,1,1,0,0,1607.52
+DEV-11415,Laptop,Apple,MacBook Air M2,macOS,20,1299.0,8,1024,15.2,100.0,Fair,0,1,0,1,818.06
+DEV-13610,Laptop,Apple,MacBook Air M1,macOS,46,1599.0,8,512,14.2,81.3,Good,1,0,0,0,815.7
+DEV-11527,Laptop,Apple,MacBook Air M1,macOS,35,1599.0,16,1024,16.0,79.6,Good,0,1,0,1,982.33
+DEV-13892,Smartphone,Xiaomi,Xiaomi 12 Pro,Android,25,1199.0,8,256,5.9,84.9,Good,1,0,0,0,570.47
+DEV-11300,Laptop,HP,Spectre x360,Linux,53,1099.0,8,256,13.7,76.6,Fair,0,1,0,1,227.86
+DEV-13881,Laptop,Apple,MacBook Pro 14 M1,macOS,23,999.0,32,512,14.3,85.1,Good,1,0,0,0,772.43
+DEV-12848,Smartphone,Samsung,Galaxy S20,Android,4,1199.0,6,512,6.6,94.7,Good,1,1,0,0,1038.26
+DEV-11603,Laptop,Lenovo,ThinkPad X1 Carbon,Windows,5,599.0,16,1024,15.7,96.0,Good,0,0,0,0,520.54
+DEV-10160,Laptop,Dell,XPS 15,Windows,16,599.0,8,256,15.8,89.0,Good,0,1,0,0,396.98
+DEV-11704,Smartphone,Apple,iPhone 12,iOS,47,1099.0,6,128,6.4,,Pristine,1,1,0,0,662.95
+DEV-10956,Laptop,HP,Envy 13,Windows,19,1999.0,32,512,14.9,94.2,Good,1,1,0,1,1367.11
+DEV-13234,Laptop,Lenovo,ThinkPad X1 Carbon,Windows,8,799.0,32,256,14.4,,Good,1,1,0,0,684.27
+DEV-12869,Smartphone,Samsung,Galaxy S22,Android,36,399.0,12,128,6.1,74.7,Pristine,1,1,0,0,191.15
+DEV-13880,Laptop,Dell,Inspiron 15,Windows,45,1999.0,16,256,13.7,85.6,Heavily Used,0,1,0,1,410.67
+DEV-10877,Smartphone,Google,Pixel 8,Android,42,899.0,6,128,6.2,77.2,Good,1,1,0,1,299.92
+DEV-11919,Laptop,Apple,MacBook Air M1,macOS,36,1299.0,8,1024,14.5,80.1,Pristine,1,1,0,0,1094.44
+DEV-12961,Smartphone,Apple,iPhone 14 Pro,iOS,34,799.0,6,128,6.0,91.4,Good,1,1,0,0,498.4
+DEV-11884,Laptop,Dell,XPS 13,Windows,35,599.0,16,512,14.8,96.0,Good,1,1,0,0,288.34
+DEV-12200,Laptop,Apple,MacBook Pro 16 M2,macOS,15,1599.0,16,1024,14.2,91.5,Good,1,1,0,0,1519.05
+DEV-10098,Smartphone,Samsung,Galaxy S21,Android,49,799.0,8,128,6.6,71.3,Pristine,0,1,0,0,299.73
+DEV-13769,Laptop,Apple,MacBook Air M2,macOS,37,999.0,32,512,15.8,85.7,Good,1,1,0,1,629.79
+DEV-12557,Smartphone,Apple,iPhone 14 Pro,iOS,6,799.0,6,128,5.9,99.8,Good,1,1,0,1,746.74
+DEV-13183,Smartphone,OnePlus,OnePlus 11,Android,13,599.0,12,512,6.5,95.2,Pristine,0,1,0,0,533.12
+DEV-13298,Laptop,Dell,XPS 15,Windows,3,1999.0,8,256,13.4,97.3,Fair,1,1,0,1,1334.88
+DEV-10253,Smartphone,Apple,iPhone 15 Pro,iOS,9,899.0,8,256,6.1,96.1,Good,1,1,0,1,797.87
+DEV-10103,Smartphone,Samsung,Galaxy S23 Ultra,Android,51,799.0,16,64,5.9,77.7,Good,1,1,0,0,267.6
+DEV-11445,Smartphone,OnePlus,OnePlus 10 Pro,Android,34,799.0,8,256,6.2,89.4,Heavily Used,1,1,0,1,192.1
+DEV-11443,Laptop,Apple,MacBook Pro 16 M2,macOS,18,1999.0,8,256,15.0,85.6,Good,1,1,0,0,1644.58
+DEV-11648,Smartphone,Google,Pixel 5,Android,12,1199.0,12,256,6.0,82.3,Fair,1,1,0,1,647.25
+DEV-10586,Smartphone,Apple,iPhone 12,iOS,32,1199.0,6,128,6.2,87.3,Pristine,0,1,0,0,826.6
+DEV-10627,Smartphone,Xiaomi,Xiaomi 12 Pro,Android,38,899.0,8,128,6.1,84.4,Good,0,1,0,1,304.77
+DEV-11696,Smartphone,Google,Pixel 6,Android,7,599.0,8,256,6.0,98.9,Good,0,0,0,1,445.88
+DEV-13191,Laptop,Asus,VivoBook 15,Windows,40,799.0,16,512,15.1,78.3,Good,0,1,0,0,325.41
+DEV-12101,Smartphone,Samsung,Galaxy S21,Android,35,899.0,8,128,6.1,75.6,Good,0,1,0,0,404.78
+DEV-12199,Smartphone,Apple,iPhone 11,iOS,43,799.0,6,128,6.5,86.3,Pristine,0,1,0,0,471.65
+DEV-10403,Laptop,Lenovo,ThinkPad X1 Carbon,Windows,6,599.0,16,1024,13.7,100.0,Good,0,1,0,1,511.47
+DEV-11154,Smartphone,Apple,iPhone 11,iOS,31,899.0,6,512,6.0,82.9,Good,1,1,0,0,571.93
+DEV-12255,Laptop,Apple,MacBook Pro 14 M1,macOS,38,2499.0,8,512,13.6,86.3,Good,1,1,0,1,1479.55
+DEV-12863,Smartphone,Samsung,Galaxy S22,Android,15,799.0,8,128,6.6,87.9,Heavily Used,0,1,1,1,221.5
+DEV-11682,Laptop,HP,Spectre x360,Windows,28,599.0,16,512,14.3,92.4,Good,1,1,0,1,315.0
+DEV-13170,Smartphone,Apple,iPhone 15 Pro,iOS,12,1099.0,6,256,6.5,91.4,Heavily Used,0,0,1,1,371.16
+DEV-13741,Laptop,HP,Omen 16,Windows,16,1499.0,16,256,15.0,96.7,Good,0,1,0,0,1079.95
+DEV-12056,Laptop,Lenovo,IdeaPad 5,Windows,12,1099.0,8,256,15.6,96.1,Fair,0,1,0,1,673.28
+DEV-13062,Laptop,Asus,ZenBook 14,Windows,10,799.0,8,256,14.3,95.7,Good,0,0,0,0,573.46
+DEV-13791,Smartphone,Samsung,Galaxy S23 Ultra,Android,11,399.0,8,64,6.6,94.6,Good,1,1,0,0,310.69
+DEV-13108,Smartphone,Google,Pixel 6,Android,10,599.0,12,64,6.4,93.5,Pristine,1,0,0,0,474.07
+DEV-10452,Smartphone,Apple,iPhone 13,iOS,2,999.0,4,128,6.5,100.0,Pristine,1,0,0,0,949.05
+DEV-12301,Laptop,Lenovo,Legion 5 Pro,Windows,13,1499.0,8,512,14.7,93.3,Fair,1,1,0,1,857.64
+DEV-11327,Smartphone,Apple,iPhone 11,iOS,45,799.0,8,64,6.5,77.1,Fair,0,1,0,1,275.22
+DEV-12944,Laptop,Lenovo,IdeaPad 5,Linux,41,1999.0,16,512,13.7,84.9,Fair,0,1,1,1,519.82
+DEV-12049,Smartphone,Samsung,Galaxy S21,Android,10,899.0,8,128,6.8,100.0,Pristine,0,1,0,0,854.05
+DEV-10880,Laptop,Asus,ZenBook 14,Windows,7,1099.0,8,512,13.7,94.8,Heavily Used,0,0,1,1,342.22
+DEV-13643,Smartphone,OnePlus,OnePlus 9 Pro,Android,4,1199.0,8,128,5.9,99.8,Pristine,0,0,0,0,1064.91
+DEV-13886,Laptop,HP,Envy 13,Windows,27,1099.0,32,512,14.2,91.9,Good,0,0,0,0,561.21
+DEV-10623,Smartphone,Google,Pixel 5,Android,39,1199.0,12,256,6.7,80.6,Heavily Used,0,1,1,1,217.49
+DEV-12393,Smartphone,Samsung,Galaxy S20,Android,27,1199.0,8,128,6.2,82.8,Fair,1,0,0,1,452.3
+DEV-13690,Smartphone,Xiaomi,Redmi Note 10,Android,2,599.0,6,256,6.0,100.0,Pristine,1,1,0,0,569.05
+DEV-11787,Smartphone,Google,Pixel 5,Android,3,599.0,8,128,6.5,93.7,Pristine,1,1,0,0,569.05
+DEV-10262,Laptop,Dell,XPS 15,Windows,39,1499.0,16,256,16.1,89.3,Pristine,1,1,0,0,810.05
+DEV-11634,Laptop,Asus,ROG Zephyrus G14,Windows,17,799.0,8,512,13.7,97.9,Good,1,1,0,0,560.94
+DEV-13369,Smartphone,Apple,iPhone 14 Pro,iOS,12,1199.0,6,128,6.1,96.8,Good,0,1,0,1,938.21
+DEV-11438,Laptop,Asus,VivoBook 15,Windows,45,1499.0,8,512,14.2,85.3,Pristine,1,0,0,0,618.01
+DEV-12198,Smartphone,Samsung,Galaxy S22,Android,6,1199.0,8,128,6.5,96.4,Heavily Used,1,0,0,1,540.85
+DEV-11969,Smartphone,Apple,iPhone 11,iOS,14,1099.0,6,128,6.5,,Heavily Used,1,1,1,1,355.46
+DEV-12520,Smartphone,Apple,iPhone 12,iOS,40,1099.0,6,256,6.0,87.9,Good,0,1,0,0,601.75
+DEV-11802,Smartphone,Xiaomi,Xiaomi 12 Pro,Android,43,899.0,6,64,6.4,83.7,Fair,0,0,0,1,196.78
+DEV-10640,Smartphone,Samsung,Galaxy Z Flip 4,Android,3,1199.0,12,256,6.0,100.0,Good,0,1,0,0,1116.18
+DEV-13982,Smartphone,OnePlus,OnePlus 11,Android,53,399.0,6,128,6.6,72.2,Pristine,0,1,0,0,119.43
+DEV-12385,Laptop,Lenovo,IdeaPad 5,Linux,45,1099.0,32,1024,15.4,80.6,Pristine,0,1,0,0,525.58
+DEV-12598,Laptop,Apple,MacBook Air M1,macOS,14,1299.0,8,256,15.6,94.5,Good,0,1,0,0,1178.81
+DEV-13885,Smartphone,Apple,iPhone 12,iOS,43,1199.0,4,64,6.1,81.5,Fair,1,1,0,1,441.63
+DEV-11959,Smartphone,Apple,iPhone 15 Pro,iOS,45,899.0,4,128,6.5,73.2,Heavily Used,0,1,1,1,173.23
+DEV-12976,Laptop,Dell,Inspiron 15,Windows,34,1099.0,16,512,15.1,85.3,Good,1,1,0,0,589.0
+DEV-10488,Smartphone,Samsung,Galaxy Z Flip 4,Android,8,599.0,8,128,6.1,100.0,Pristine,0,1,0,0,532.86
+DEV-11843,Smartphone,Google,Pixel 6,Android,32,899.0,12,64,6.2,82.3,Fair,1,1,1,1,258.38
+DEV-11734,Laptop,Dell,XPS 13,Windows,13,799.0,32,256,16.0,86.7,Pristine,1,1,0,0,759.05
+DEV-12911,Laptop,Lenovo,IdeaPad 5,Windows,42,1099.0,16,1024,13.6,85.6,Good,0,1,0,0,462.76
+DEV-13219,Laptop,Dell,XPS 15,Windows,31,799.0,32,512,15.0,91.0,Fair,1,1,0,1,343.75
+DEV-10146,Laptop,Lenovo,ThinkPad X1 Carbon,Windows,46,599.0,16,512,13.8,83.9,Good,0,1,0,0,226.59
+DEV-11534,Laptop,Dell,XPS 15,Windows,23,1999.0,8,1024,15.4,87.5,Good,0,1,0,0,1206.6
+DEV-11986,Laptop,Apple,MacBook Air M2,macOS,49,2499.0,16,512,16.0,81.5,Good,0,1,0,0,1328.54
+DEV-11369,Smartphone,Apple,iPhone 15 Pro,iOS,21,999.0,4,512,6.3,84.2,Good,0,1,0,0,770.25
+DEV-12450,Smartphone,Apple,iPhone 11,iOS,38,799.0,6,256,6.1,78.4,Heavily Used,1,1,1,1,208.19
+DEV-13912,Smartphone,Samsung,Galaxy S20,Android,45,799.0,8,64,6.4,80.7,Good,0,1,0,0,271.64
+DEV-13002,Smartphone,Samsung,Galaxy Z Flip 4,Android,4,799.0,8,128,6.6,100.0,Fair,0,0,0,1,501.63
+DEV-12811,Smartphone,Apple,iPhone 13,iOS,45,899.0,6,128,6.1,85.2,Good,0,0,0,1,409.99
+DEV-10659,Smartphone,OnePlus,OnePlus 11,Android,50,799.0,6,64,6.1,81.0,Good,1,1,0,0,250.82
+DEV-11794,Smartphone,Samsung,Galaxy Z Flip 4,Android,6,899.0,8,256,6.7,93.3,Fair,1,1,0,1,579.5
+DEV-13420,Laptop,Asus,TUF Gaming A15,Windows,19,599.0,16,512,14.1,93.0,Fair,1,1,0,1,302.73
+DEV-12511,Smartphone,Samsung,Galaxy S23 Ultra,Android,11,399.0,6,256,6.0,100.0,Good,1,0,0,0,312.22
+DEV-13397,Laptop,Asus,ZenBook 14,Windows,5,599.0,8,256,13.5,96.6,Pristine,0,1,0,0,569.05
+DEV-10186,Smartphone,Samsung,Galaxy S21,Android,22,799.0,8,128,5.9,87.6,Pristine,0,1,0,0,544.28
+DEV-11147,Smartphone,Samsung,Galaxy S23 Ultra,Android,41,399.0,12,256,6.8,84.7,Fair,0,1,0,1,127.74
+DEV-13272,Smartphone,Apple,iPhone 12,iOS,22,999.0,6,256,6.2,94.7,Good,1,1,0,0,836.98
+DEV-10608,Laptop,Apple,MacBook Pro 14 M1,macOS,49,2499.0,8,512,15.5,72.8,Fair,1,1,0,1,906.27
+DEV-12191,Laptop,Apple,MacBook Air M2,macOS,51,999.0,16,1024,13.9,83.5,Fair,1,0,1,1,301.64
+DEV-12799,Laptop,Lenovo,ThinkPad T14,Linux,27,1499.0,32,512,,88.0,Good,0,1,0,0,889.09
+DEV-13582,Smartphone,Apple,iPhone 13,iOS,26,799.0,6,128,,88.7,Fair,0,1,0,1,401.39
+DEV-11930,Smartphone,Xiaomi,Xiaomi 11T,Android,19,1199.0,12,128,6.4,91.9,Pristine,0,1,0,0,839.2
+DEV-13029,Smartphone,Apple,iPhone 14 Pro,iOS,8,1099.0,6,64,6.4,100.0,Pristine,1,1,0,0,1044.05
+DEV-10197,Laptop,HP,Pavilion 15,Windows,35,1499.0,16,512,14.9,84.9,Fair,0,1,0,1,527.04
+DEV-13681,Laptop,Asus,ROG Zephyrus G14,Windows,44,799.0,8,256,15.9,76.3,Fair,0,1,0,1,199.04
+DEV-12931,Laptop,Apple,MacBook Pro 14 M1,macOS,47,1299.0,8,512,15.5,75.7,Good,1,1,0,0,658.93
+DEV-12327,Smartphone,Apple,iPhone 11,iOS,10,899.0,6,256,5.8,97.3,Fair,0,1,1,1,510.79
+DEV-10293,Laptop,HP,Omen 16,Windows,34,1099.0,16,512,13.4,79.0,Fair,0,1,0,1,375.39
+DEV-10766,Smartphone,Samsung,Galaxy Z Flip 4,Android,6,599.0,12,256,6.0,97.0,Good,1,1,0,0,534.82
+DEV-10400,Smartphone,Apple,iPhone 13,iOS,50,999.0,4,64,6.6,68.8,Good,1,1,0,0,400.0
+DEV-10122,Laptop,Lenovo,ThinkPad X1 Carbon,Linux,18,1999.0,16,512,15.7,89.6,Heavily Used,1,1,1,1,646.07
+DEV-13255,Laptop,Asus,ROG Zephyrus G14,Linux,16,1099.0,8,512,13.5,90.5,Good,0,0,0,0,688.37
+DEV-10202,Laptop,HP,Spectre x360,Windows,15,1099.0,32,512,13.9,89.3,Pristine,1,0,0,0,926.34
+DEV-13510,Laptop,Dell,XPS 13,Windows,27,799.0,16,512,15.4,98.4,Good,0,1,0,1,431.55
+DEV-10835,Laptop,Dell,XPS 15,Windows,12,1099.0,16,512,13.9,93.6,Good,1,1,0,0,901.16
+DEV-12294,Smartphone,Samsung,Galaxy S22,Android,15,899.0,8,256,6.3,90.4,Pristine,0,1,0,0,738.17
+DEV-11439,Laptop,Apple,MacBook Pro 14 M1,macOS,52,1599.0,16,256,14.0,71.7,Good,0,0,0,0,690.8
+DEV-11733,Smartphone,Apple,iPhone 11,iOS,31,1199.0,6,128,6.4,84.3,Good,1,1,0,0,784.54
+DEV-11695,Laptop,Asus,VivoBook 15,Windows,17,799.0,8,512,16.1,95.6,Pristine,0,1,0,0,620.96
+DEV-13899,Laptop,Apple,MacBook Pro 16 M2,macOS,37,1599.0,16,512,14.3,73.9,Heavily Used,1,0,1,1,403.06
+DEV-11707,Smartphone,Samsung,Galaxy S20,Android,38,599.0,12,128,6.0,80.0,Fair,1,1,0,1,199.29
+DEV-13878,Laptop,Lenovo,ThinkPad X1 Carbon,Windows,2,1999.0,8,512,14.6,98.7,Heavily Used,1,1,0,1,1076.46
+DEV-11153,Laptop,Asus,TUF Gaming A15,Windows,51,799.0,8,512,16.0,83.2,Pristine,0,0,0,0,267.32
+DEV-11661,Smartphone,Samsung,Galaxy S23 Ultra,Android,31,899.0,8,128,6.7,86.2,Fair,0,1,0,1,335.57
+DEV-13474,Smartphone,Apple,iPhone 12,iOS,39,799.0,6,64,5.9,82.2,Good,0,1,0,0,415.79
+DEV-12432,Smartphone,Xiaomi,Xiaomi 12 Pro,Android,23,899.0,8,256,6.1,90.2,Pristine,1,1,0,0,607.02
+DEV-13750,Smartphone,OnePlus,OnePlus 8T,Android,33,1199.0,6,256,6.4,79.3,Pristine,0,1,0,0,626.0
+DEV-11759,Smartphone,Samsung,Galaxy Z Flip 4,Android,9,799.0,12,512,6.6,96.2,Good,0,0,0,0,640.43
+DEV-10854,Smartphone,Samsung,Galaxy Z Flip 4,Android,21,599.0,6,256,6.6,99.4,Fair,1,1,1,1,221.09
+DEV-11589,Laptop,Lenovo,ThinkPad T14,Windows,53,599.0,16,512,15.3,70.1,Good,1,0,0,0,155.82
+DEV-12267,Smartphone,Apple,iPhone 11,iOS,33,1099.0,4,256,6.5,88.4,Good,0,1,0,1,603.06
+DEV-10641,Laptop,Asus,ZenBook 14,Windows,30,1099.0,16,512,15.2,93.4,Good,1,1,0,0,643.27
+DEV-10001,Smartphone,Apple,iPhone 15 Pro,iOS,17,1199.0,6,128,6.4,94.3,Good,1,1,0,1,894.13
+DEV-12160,Smartphone,Apple,iPhone 13,iOS,7,999.0,8,128,6.0,95.5,Heavily Used,1,0,0,1,476.03
+DEV-10698,Laptop,Apple,MacBook Pro 14 M1,macOS,28,1999.0,8,256,13.4,86.9,Pristine,0,0,0,0,1379.16
+DEV-13913,Laptop,Dell,Latitude 5420,Windows,10,1099.0,8,512,14.7,97.6,Fair,1,1,0,1,684.99
+DEV-12999,Smartphone,Google,Pixel 5,Android,17,599.0,8,512,6.6,97.1,Pristine,1,1,0,0,517.67
+DEV-13696,Laptop,Dell,XPS 13,Windows,12,599.0,8,1024,14.2,97.6,Fair,1,1,0,1,363.21
+DEV-11636,Laptop,Dell,XPS 13,Windows,22,799.0,8,512,13.9,96.0,Good,1,1,0,0,542.63
+DEV-13184,Laptop,Dell,Inspiron 15,Windows,14,799.0,64,512,14.2,95.8,Pristine,0,0,0,0,759.05
+DEV-13458,Smartphone,Google,Pixel 7 Pro,Android,21,799.0,6,64,6.6,91.5,Pristine,0,1,0,0,510.3
+DEV-13457,Smartphone,Apple,iPhone 14 Pro,iOS,5,799.0,8,256,6.5,100.0,Good,1,1,0,0,759.05
+DEV-13581,Laptop,Apple,MacBook Air M1,macOS,24,1999.0,8,512,14.9,92.4,Fair,0,1,1,1,909.65
+DEV-11291,Laptop,HP,Pavilion 15,Windows,33,1499.0,32,256,14.5,84.4,Good,1,1,0,0,755.6
+DEV-13805,Laptop,Apple,MacBook Pro 14 M1,macOS,43,1299.0,8,512,14.0,85.5,Pristine,1,1,0,0,880.03
+DEV-12489,Laptop,Lenovo,ThinkPad T14,Linux,52,1999.0,32,512,15.6,72.1,Fair,0,1,1,1,367.89
+DEV-11520,Smartphone,Apple,iPhone 11,iOS,11,1199.0,6,128,6.1,99.2,Fair,1,1,0,1,779.87
+DEV-11853,Smartphone,Samsung,Galaxy S23 Ultra,Android,40,799.0,12,512,6.2,82.3,Heavily Used,0,1,0,1,174.77
+DEV-11136,Smartphone,Apple,iPhone 14 Pro,iOS,9,899.0,6,128,6.8,100.0,Pristine,1,0,0,0,854.05
+DEV-13304,Laptop,Dell,Latitude 5420,Windows,46,1499.0,8,1024,13.9,88.6,Fair,1,0,0,1,400.61
+DEV-13862,Laptop,Asus,TUF Gaming A15,Windows,15,1999.0,8,1024,15.7,94.9,Fair,1,0,1,1,837.83
+DEV-11631,Laptop,Lenovo,Legion 5 Pro,Windows,27,1499.0,8,512,15.3,87.9,Good,1,1,0,0,885.66
+DEV-13743,Laptop,Apple,MacBook Air M1,macOS,6,1999.0,16,512,14.9,91.4,Good,0,1,0,0,1899.05
+DEV-13445,Laptop,Lenovo,Legion 5 Pro,Windows,26,799.0,8,512,14.9,89.7,Good,1,1,0,0,456.35
+DEV-11998,Smartphone,Xiaomi,Xiaomi 12 Pro,Android,48,1199.0,8,64,6.0,83.8,Good,1,0,0,0,337.82
+DEV-10663,Laptop,HP,Omen 16,Windows,34,799.0,16,1024,15.7,84.9,Fair,0,1,0,1,295.32
+DEV-10683,Smartphone,Samsung,Galaxy S21,Android,51,599.0,8,128,6.5,78.2,Good,1,1,0,0,180.84
+DEV-11257,Laptop,Dell,XPS 13,Windows,15,1999.0,32,1024,15.7,81.7,Fair,0,1,0,1,1164.59
+DEV-13766,Smartphone,Apple,iPhone 15 Pro,iOS,23,1099.0,6,64,5.9,75.0,Fair,1,1,0,1,572.73
+DEV-13748,Smartphone,Apple,iPhone 15 Pro,iOS,45,1199.0,4,256,6.3,78.2,Good,0,0,0,0,520.26
+DEV-10317,Laptop,Lenovo,IdeaPad 5,Windows,40,1499.0,8,512,13.8,85.4,Good,1,0,0,1,550.21
+DEV-10648,Smartphone,Apple,iPhone 12,iOS,21,999.0,6,128,6.1,87.5,Fair,0,1,0,1,563.6
+DEV-11434,Smartphone,Apple,iPhone 14 Pro,iOS,43,799.0,6,512,6.6,87.0,Good,1,1,0,0,451.08
+DEV-11479,Smartphone,Apple,iPhone 11,iOS,52,1199.0,4,128,6.6,76.9,Pristine,0,1,0,0,580.68
+DEV-10709,Laptop,Apple,MacBook Pro 16 M2,macOS,9,2499.0,8,256,15.6,84.6,Heavily Used,0,1,0,1,1166.9
+DEV-13430,Smartphone,Google,Pixel 7 Pro,Android,13,399.0,6,64,6.2,98.0,Pristine,1,1,0,0,305.01
+DEV-11282,Smartphone,Xiaomi,Redmi Note 10,Android,31,599.0,8,256,5.9,89.6,Good,0,1,0,0,252.9
+DEV-11768,Smartphone,Apple,iPhone 13,iOS,39,1199.0,6,128,6.1,79.9,Fair,1,0,0,1,443.93
+DEV-10972,Smartphone,Samsung,Galaxy S20,Android,40,399.0,8,128,6.0,88.8,Fair,1,0,0,1,115.39
+DEV-12675,Laptop,Lenovo,IdeaPad 5,Linux,34,599.0,8,512,,80.2,Pristine,0,0,0,0,284.15
+DEV-12680,Smartphone,Xiaomi,Xiaomi 11T,Android,14,1199.0,6,128,6.6,94.8,Fair,1,0,0,1,545.66
+DEV-11306,Smartphone,Google,Pixel 6,Android,6,799.0,8,128,5.9,95.9,Good,1,1,0,0,722.4
+DEV-11400,Smartphone,Apple,iPhone 12,iOS,49,799.0,4,128,6.7,80.5,Good,1,0,0,0,336.71
+DEV-11408,Smartphone,Samsung,Galaxy S21,Android,23,1199.0,8,128,6.0,88.8,Fair,1,1,0,1,537.59
+DEV-13296,Smartphone,Apple,iPhone 14 Pro,iOS,21,1199.0,6,128,6.8,95.7,Fair,1,1,0,1,690.23
+DEV-12237,Smartphone,Apple,iPhone 14 Pro,iOS,38,1099.0,8,256,6.5,78.6,Heavily Used,0,0,0,1,315.54
+DEV-13302,Laptop,Apple,MacBook Pro 16 M2,macOS,27,1599.0,32,1024,14.7,88.2,Fair,1,1,0,1,965.0
+DEV-11496,Smartphone,Samsung,Galaxy Z Flip 4,Android,43,599.0,12,1024,6.3,78.5,Good,0,0,0,0,221.63
+DEV-13419,Smartphone,Apple,iPhone 11,iOS,52,1099.0,6,256,6.0,81.6,Fair,1,0,0,1,355.97
+DEV-12038,Laptop,Apple,MacBook Air M1,macOS,14,2499.0,32,256,,96.5,Good,0,0,0,0,2242.22
+DEV-11529,Smartphone,Google,Pixel 5,Android,13,399.0,6,64,6.6,92.9,Pristine,0,0,0,0,300.58
+DEV-11663,Smartphone,Apple,iPhone 15 Pro,iOS,48,899.0,6,64,6.7,86.3,Good,1,1,0,0,438.47
+DEV-11354,Smartphone,Samsung,Galaxy Z Flip 4,Android,53,1199.0,6,128,5.8,75.1,Fair,1,1,0,1,252.43
+DEV-13895,Laptop,Lenovo,Legion 5 Pro,Windows,44,1999.0,8,256,15.9,77.4,Fair,0,0,0,1,468.33
+DEV-13923,Smartphone,Google,Pixel 6,Android,10,599.0,8,128,6.2,100.0,Fair,1,0,0,1,324.27
+DEV-13627,Laptop,Lenovo,ThinkPad T14,Windows,32,599.0,16,512,13.6,88.0,Heavily Used,1,1,1,1,131.96
+DEV-11643,Laptop,Asus,VivoBook 15,Windows,26,1999.0,8,256,14.1,85.2,Good,0,1,0,0,1055.93
+DEV-11051,Smartphone,Samsung,Galaxy Z Flip 4,Android,48,1199.0,16,512,6.4,73.3,Pristine,1,1,0,0,474.21
+DEV-10795,Smartphone,Samsung,Galaxy S20,Android,33,399.0,8,64,6.3,79.8,Good,1,0,0,0,167.2
+DEV-12693,Smartphone,Xiaomi,Redmi Note 10,Android,52,599.0,8,64,6.7,69.4,Fair,1,1,0,1,109.75
+DEV-13060,Smartphone,OnePlus,OnePlus 8T,Android,19,899.0,6,256,5.9,93.7,Pristine,1,1,0,0,686.82
+DEV-11597,Laptop,Apple,MacBook Pro 14 M1,macOS,27,2499.0,8,512,15.4,,Pristine,0,1,0,0,2155.76
+DEV-12604,Smartphone,Google,Pixel 8,Android,46,599.0,8,128,6.1,76.0,Pristine,1,1,0,0,247.46
+DEV-12729,Smartphone,Google,Pixel 5,Android,41,1199.0,12,128,6.3,82.0,Fair,0,1,1,1,287.65
+DEV-12625,Laptop,Apple,MacBook Air M2,macOS,18,1299.0,16,256,13.4,88.1,Pristine,0,1,0,0,1234.05
+DEV-11819,Laptop,Apple,MacBook Pro 14 M1,macOS,18,1999.0,32,256,14.2,93.0,Pristine,1,1,0,0,1899.05
+DEV-13157,Smartphone,Apple,iPhone 14 Pro,iOS,22,1099.0,4,64,5.9,92.9,Fair,0,1,0,1,552.03
+DEV-13314,Smartphone,Google,Pixel 5,Android,13,799.0,12,256,6.4,100.0,Fair,0,1,0,1,480.88
+DEV-11722,Smartphone,OnePlus,OnePlus 8T,Android,8,799.0,8,128,6.8,98.6,Pristine,0,1,0,0,746.11
+DEV-11183,Smartphone,Xiaomi,Xiaomi 13,Android,18,399.0,16,128,6.3,89.6,Good,0,1,0,0,246.86
+DEV-12572,Smartphone,Samsung,Galaxy S23 Ultra,Android,7,599.0,8,128,6.4,89.5,Good,0,0,0,0,438.69
+DEV-11059,Smartphone,Samsung,Galaxy S23 Ultra,Android,25,399.0,8,256,6.3,90.1,Good,0,1,0,0,241.04
+DEV-10540,Smartphone,Samsung,Galaxy S20,Android,14,399.0,8,128,6.4,100.0,Good,1,1,0,0,315.8
+DEV-13242,Laptop,Apple,MacBook Pro 16 M2,macOS,48,2499.0,8,512,14.8,75.1,Pristine,0,1,0,0,1360.44
+DEV-11678,Laptop,Lenovo,Legion 5 Pro,Windows,53,1499.0,16,512,13.6,74.5,Fair,1,1,0,1,354.06
+DEV-12796,Smartphone,Apple,iPhone 14 Pro,iOS,41,1099.0,4,128,6.4,80.2,Pristine,1,1,0,0,641.86
+DEV-13850,Smartphone,Apple,iPhone 15 Pro,iOS,7,799.0,4,128,6.2,100.0,Fair,0,1,0,1,552.57
+DEV-13478,Laptop,Asus,ROG Zephyrus G14,Windows,4,1999.0,8,512,14.2,,Good,0,1,0,1,1639.46
+DEV-12532,Smartphone,Apple,iPhone 14 Pro,iOS,52,1199.0,6,128,6.4,77.5,Good,1,1,0,0,548.88
+DEV-11757,Smartphone,Samsung,Galaxy S20,Android,14,599.0,6,128,6.4,88.6,Fair,1,0,0,1,297.09
+DEV-11923,Laptop,Apple,MacBook Air M1,macOS,26,1999.0,8,512,16.0,90.6,Fair,1,0,0,1,1014.45
+DEV-10095,Laptop,Lenovo,IdeaPad 5,Windows,39,1099.0,8,256,15.5,83.8,Good,0,1,0,0,490.17
+DEV-11020,Laptop,Dell,Latitude 5420,Windows,48,1999.0,8,1024,,90.7,Good,1,1,0,0,739.89
+DEV-10563,Laptop,Apple,MacBook Air M2,macOS,33,1599.0,8,1024,15.6,85.3,Fair,1,1,0,1,815.5
+DEV-13312,Smartphone,Apple,iPhone 15 Pro,iOS,31,799.0,6,256,,76.4,Good,1,1,0,0,532.88
+DEV-12790,Smartphone,Apple,iPhone 15 Pro,iOS,23,1099.0,6,64,5.8,87.7,Fair,1,1,0,1,588.43
+DEV-10863,Smartphone,Apple,iPhone 11,iOS,3,1199.0,6,64,6.5,90.5,Pristine,1,0,0,0,1139.05
+DEV-13646,Laptop,Lenovo,ThinkPad X1 Carbon,Windows,21,1499.0,16,512,15.7,94.3,Good,1,0,0,0,921.54
+DEV-13762,Smartphone,Samsung,Galaxy S21,Android,45,799.0,12,128,6.2,79.1,Good,1,1,0,0,306.91
+DEV-11484,Smartphone,Xiaomi,Redmi Note 10,Android,17,1199.0,8,128,6.8,98.3,Heavily Used,1,0,0,1,359.15
+DEV-12939,Smartphone,Apple,iPhone 15 Pro,iOS,50,1099.0,6,128,6.4,76.4,Fair,0,0,1,1,279.61
+DEV-13625,Laptop,Dell,XPS 13,Windows,24,1099.0,16,512,14.4,88.0,Fair,1,1,0,1,541.53
+DEV-11881,Laptop,Apple,MacBook Pro 16 M2,macOS,51,1999.0,16,1024,15.3,83.4,Pristine,1,1,0,0,1210.08
+DEV-11038,Smartphone,Apple,iPhone 15 Pro,iOS,21,1199.0,4,128,6.7,88.1,Good,0,1,0,0,766.78
+DEV-10206,Smartphone,Google,Pixel 7 Pro,Android,15,899.0,8,128,6.3,95.2,Good,0,1,0,0,612.91
+DEV-10392,Smartphone,Samsung,Galaxy Z Flip 4,Android,3,599.0,8,128,6.4,96.8,Good,1,1,0,0,566.87
+DEV-12842,Smartphone,Xiaomi,Xiaomi 11T,Android,27,799.0,6,128,5.9,87.0,Fair,0,1,0,1,301.79
+DEV-10870,Smartphone,Xiaomi,Redmi Note 10,Android,46,399.0,12,512,6.0,79.6,Heavily Used,0,0,1,1,54.21
+DEV-10397,Laptop,Asus,VivoBook 15,Windows,6,1099.0,64,2048,15.3,,Good,1,1,0,1,1044.05
+DEV-12814,Laptop,HP,Omen 16,Windows,32,1999.0,8,512,13.3,83.7,Good,0,1,0,0,983.57
+DEV-13839,Smartphone,Google,Pixel 7 Pro,Android,26,799.0,8,256,6.0,88.7,Fair,0,1,0,1,300.82
+DEV-13289,Smartphone,Samsung,Galaxy S23 Ultra,Android,44,799.0,16,1024,6.0,87.6,Good,0,0,0,1,279.11
+DEV-11028,Smartphone,Samsung,Galaxy S20,Android,45,1199.0,8,64,6.5,77.5,Fair,1,1,0,1,325.13
+DEV-12690,Smartphone,Apple,iPhone 12,iOS,5,799.0,8,512,6.6,98.7,Fair,1,1,0,1,646.23
+DEV-11485,Smartphone,Google,Pixel 7 Pro,Android,32,899.0,6,128,6.7,86.1,Pristine,1,0,0,0,489.9
+DEV-12660,Laptop,Apple,MacBook Pro 14 M1,macOS,50,999.0,8,512,15.6,76.7,Good,1,1,0,1,482.33
+DEV-13810,Smartphone,Apple,iPhone 14 Pro,iOS,13,799.0,6,128,5.8,88.6,Fair,0,1,1,1,397.25
+DEV-10960,Smartphone,Apple,iPhone 11,iOS,23,1199.0,4,128,6.4,90.5,Pristine,1,0,0,0,846.07
+DEV-11570,Laptop,Apple,MacBook Air M1,macOS,49,1599.0,16,512,15.5,75.2,Good,1,1,0,0,890.89
+DEV-12773,Laptop,Lenovo,ThinkPad X1 Carbon,Windows,24,799.0,8,512,16.0,89.7,Good,1,1,0,0,532.13
+DEV-11895,Smartphone,Google,Pixel 6,Android,26,599.0,8,128,6.6,85.5,Heavily Used,1,0,0,1,159.81
+DEV-12731,Laptop,Apple,MacBook Pro 14 M1,macOS,15,1599.0,32,512,16.1,93.2,Heavily Used,0,1,1,1,708.37
+DEV-12146,Laptop,Apple,MacBook Air M2,macOS,15,1999.0,16,512,15.6,88.5,Good,0,0,0,0,1629.04
+DEV-10804,Smartphone,Apple,iPhone 14 Pro,iOS,52,899.0,6,128,6.6,77.6,Pristine,0,1,0,0,464.03
+DEV-11751,Smartphone,Google,Pixel 6,Android,21,799.0,16,256,5.9,95.8,Fair,0,1,0,1,393.38
+DEV-13645,Smartphone,Samsung,Galaxy Z Flip 4,Android,34,799.0,12,256,5.8,83.5,Pristine,1,0,0,0,449.18
+DEV-12454,Smartphone,Google,Pixel 6,Android,37,899.0,8,256,6.1,84.3,Fair,1,1,1,1,244.44
+DEV-10502,Smartphone,Apple,iPhone 11,iOS,46,799.0,6,128,6.1,81.2,Heavily Used,0,1,0,1,209.73
+DEV-13119,Smartphone,Apple,iPhone 15 Pro,iOS,35,1099.0,6,128,6.3,86.8,Heavily Used,0,0,0,1,330.04
+DEV-13104,Laptop,Apple,MacBook Air M2,macOS,26,1299.0,16,512,15.0,83.8,Pristine,0,0,0,0,1030.8
+DEV-12977,Laptop,Asus,ROG Zephyrus G14,Windows,3,599.0,32,512,14.8,96.3,Fair,1,0,0,1,435.62
+DEV-10779,Smartphone,Samsung,Galaxy S21,Android,23,899.0,8,128,6.4,93.1,Pristine,1,1,0,0,623.22
+DEV-11863,Smartphone,Apple,iPhone 11,iOS,24,1099.0,6,128,5.9,93.5,Good,1,1,0,0,770.99
+DEV-10200,Smartphone,Samsung,Galaxy S22,Android,49,799.0,8,128,6.8,81.7,Pristine,0,1,0,0,320.4
+DEV-12182,Laptop,Lenovo,IdeaPad 5,Windows,27,1499.0,16,512,15.4,83.2,Fair,0,1,0,1,652.58
+DEV-13099,Smartphone,Samsung,Galaxy S20,Android,30,899.0,6,64,6.1,94.3,Fair,1,1,0,1,308.39
+DEV-12088,Laptop,Lenovo,IdeaPad 5,Windows,50,1999.0,8,1024,15.0,71.5,Pristine,1,0,0,0,693.58
+DEV-13065,Smartphone,Apple,iPhone 14 Pro,iOS,30,899.0,6,128,6.3,86.5,Good,1,1,0,0,601.76
+DEV-12278,Smartphone,Apple,iPhone 14 Pro,iOS,4,799.0,6,512,6.4,96.0,Good,1,1,0,1,759.05
+DEV-13561,Laptop,Apple,MacBook Pro 16 M2,macOS,53,1299.0,32,256,,80.7,Good,1,1,0,0,692.92
+DEV-11796,Smartphone,Apple,iPhone 11,iOS,30,999.0,6,512,6.3,90.8,Heavily Used,0,1,0,1,368.78
+DEV-10378,Smartphone,Samsung,Galaxy S20,Android,4,1199.0,8,512,6.7,97.9,Heavily Used,0,1,0,1,583.53
+DEV-12336,Smartphone,Apple,iPhone 14 Pro,iOS,6,799.0,6,256,6.2,100.0,Good,0,0,0,1,663.05
+DEV-10418,Smartphone,Apple,iPhone 15 Pro,iOS,15,999.0,6,256,6.2,98.4,Heavily Used,1,1,0,1,456.37
+DEV-11698,Laptop,Asus,TUF Gaming A15,Windows,9,599.0,8,512,14.2,95.8,Good,0,1,0,0,470.9
+DEV-10391,Smartphone,Google,Pixel 8,Android,33,399.0,6,256,6.7,83.0,Heavily Used,0,1,0,1,91.82
+DEV-12640,Smartphone,Apple,iPhone 14 Pro,iOS,2,1099.0,8,128,6.6,95.0,Pristine,1,0,0,0,1044.05
+DEV-11522,Laptop,HP,Omen 16,Windows,18,1099.0,16,1024,15.4,89.7,Good,0,1,0,1,715.91
+DEV-11162,Laptop,Apple,MacBook Air M1,macOS,34,999.0,8,512,13.5,79.9,Good,1,1,0,0,700.26
+DEV-13134,Smartphone,Apple,iPhone 13,iOS,16,899.0,8,128,6.7,94.4,Good,1,0,0,0,744.77
+DEV-11495,Laptop,Asus,ROG Zephyrus G14,Windows,10,1099.0,8,256,15.1,94.8,Pristine,0,1,0,0,997.46
+DEV-12695,Laptop,Apple,MacBook Pro 14 M1,macOS,19,999.0,8,512,15.9,89.4,Good,1,1,0,0,889.37
+DEV-12027,Smartphone,Apple,iPhone 13,iOS,33,1099.0,4,128,6.8,83.1,Fair,0,0,0,1,454.14
+DEV-11152,Laptop,Dell,Inspiron 15,Linux,21,1099.0,16,256,14.2,86.1,Good,1,0,0,0,665.64
+DEV-11367,Smartphone,OnePlus,OnePlus 10 Pro,Android,15,599.0,8,64,6.4,97.3,Heavily Used,1,1,0,1,204.38
+DEV-12568,Smartphone,Apple,iPhone 14 Pro,iOS,30,1099.0,8,256,6.5,79.9,Good,0,1,0,1,642.99
+DEV-10064,Laptop,Apple,MacBook Air M2,macOS,14,1999.0,16,1024,14.2,90.0,Pristine,0,0,0,0,1899.05
+DEV-12062,Laptop,Lenovo,ThinkPad T14,Windows,50,1999.0,16,256,14.8,78.7,Pristine,0,1,0,0,743.07
+DEV-11180,Smartphone,Apple,iPhone 14 Pro,iOS,5,899.0,6,128,6.2,100.0,Good,1,1,0,0,854.05
+DEV-13112,Smartphone,Samsung,Galaxy S23 Ultra,Android,48,599.0,16,64,6.1,78.2,Pristine,0,1,0,0,251.66
+DEV-10492,Laptop,Dell,Inspiron 15,Windows,12,1999.0,8,512,15.6,100.0,Pristine,1,1,0,0,1899.05
+DEV-10379,Smartphone,Xiaomi,Xiaomi 12 Pro,Android,22,799.0,16,256,6.2,93.8,Good,1,1,0,0,507.59
+DEV-12235,Laptop,Apple,MacBook Pro 16 M2,macOS,10,1999.0,8,1024,13.4,100.0,Fair,1,1,0,1,1604.14
+DEV-10763,Laptop,Dell,XPS 15,Windows,45,1999.0,8,256,13.4,81.8,Good,0,1,0,0,716.48
+DEV-12264,Laptop,Lenovo,Legion 5 Pro,Windows,15,1999.0,16,256,14.1,90.1,Fair,1,1,0,1,1188.64
+DEV-10791,Laptop,Dell,Latitude 5420,Windows,29,1099.0,16,512,15.2,87.6,Heavily Used,1,0,0,1,301.14
+DEV-11076,Smartphone,Apple,iPhone 15 Pro,iOS,38,899.0,4,256,6.0,89.0,Good,1,1,0,0,494.66
+DEV-10878,Smartphone,Xiaomi,Xiaomi 12 Pro,Android,12,799.0,8,512,6.3,99.6,Good,1,0,0,1,488.85
+DEV-10337,Laptop,HP,Pavilion 15,Windows,5,799.0,8,512,15.9,100.0,Fair,0,0,0,1,497.82
+DEV-13820,Laptop,Asus,ROG Zephyrus G14,Windows,10,1499.0,16,1024,13.5,95.4,Good,0,0,0,0,1201.5
+DEV-12767,Laptop,Dell,XPS 15,Windows,34,1999.0,8,256,13.7,89.7,Pristine,1,1,0,0,1177.44
+DEV-13796,Smartphone,OnePlus,OnePlus 8T,Android,29,399.0,8,128,6.2,93.4,Good,0,1,0,0,208.55
+DEV-12343,Smartphone,Xiaomi,Xiaomi 12 Pro,Android,13,1199.0,8,128,6.6,94.6,Good,1,1,0,0,855.87
+DEV-13773,Smartphone,Apple,iPhone 13,iOS,29,1199.0,8,64,6.2,91.9,Good,0,1,0,1,751.16
+DEV-11016,Laptop,Asus,ZenBook 14,Linux,22,1099.0,8,1024,13.4,90.4,Pristine,0,0,0,0,682.5
+DEV-11275,Laptop,Dell,Latitude 5420,Windows,22,799.0,16,512,13.5,83.0,Good,0,1,0,0,533.0
+DEV-13798,Laptop,HP,Pavilion 15,Windows,45,1999.0,16,256,15.5,76.4,Heavily Used,1,1,1,1,308.04
+DEV-13533,Laptop,Asus,ROG Zephyrus G14,Windows,3,1499.0,16,256,,96.5,Good,1,1,0,0,1326.21
+DEV-10455,Smartphone,Xiaomi,Xiaomi 12 Pro,Android,34,399.0,8,256,6.1,75.9,Pristine,0,1,0,0,175.24
+DEV-13342,Smartphone,Google,Pixel 8,Android,42,899.0,8,128,6.2,84.4,Good,0,1,0,0,312.4
+DEV-10815,Smartphone,Samsung,Galaxy Z Flip 4,Android,48,599.0,12,128,6.3,80.0,Pristine,0,1,0,0,232.27
+DEV-12317,Laptop,Apple,MacBook Air M2,macOS,16,1999.0,16,256,14.8,93.6,Pristine,1,1,0,0,1899.05
+DEV-10995,Smartphone,Apple,iPhone 12,iOS,40,1199.0,8,64,6.2,87.2,Pristine,0,1,0,0,777.64
+DEV-11981,Laptop,HP,Omen 16,Windows,28,1999.0,8,256,14.3,84.1,Heavily Used,1,0,1,1,388.91
+DEV-10201,Laptop,Asus,TUF Gaming A15,Windows,25,599.0,16,256,13.8,87.4,Fair,0,0,0,1,242.26
+DEV-10161,Smartphone,Samsung,Galaxy Z Flip 4,Android,5,899.0,12,256,5.9,,Heavily Used,1,1,0,1,455.45
+DEV-11579,Smartphone,Xiaomi,Xiaomi 11T,Android,10,799.0,8,128,6.2,,Good,1,1,0,1,563.33
+DEV-12777,Laptop,Apple,MacBook Pro 14 M1,macOS,44,1999.0,16,256,16.0,85.4,Pristine,1,1,0,0,1326.89
+DEV-12449,Laptop,Lenovo,Legion 5 Pro,Windows,5,799.0,32,1024,14.0,99.9,Pristine,1,1,0,0,759.05
+DEV-10702,Laptop,Apple,MacBook Air M1,macOS,21,999.0,16,1024,15.2,80.6,Good,0,1,0,0,837.29
+DEV-11500,Smartphone,Samsung,Galaxy S21,Android,5,599.0,12,512,6.3,99.9,Heavily Used,0,0,0,1,264.76
+DEV-13893,Smartphone,Apple,iPhone 14 Pro,iOS,8,799.0,6,64,6.2,99.7,Pristine,1,1,0,0,759.05
+DEV-13843,Smartphone,Xiaomi,Redmi Note 10,Android,25,1199.0,6,512,6.6,83.6,Good,0,1,0,0,613.52
+DEV-11129,Smartphone,Samsung,Galaxy S21,Android,7,799.0,6,128,6.6,98.7,Pristine,1,1,0,0,759.05
+DEV-12613,Smartphone,Samsung,Galaxy S21,Android,28,799.0,6,64,5.9,85.2,Pristine,0,1,0,0,435.97
+DEV-13461,Smartphone,Samsung,Galaxy S23 Ultra,Android,20,1199.0,8,64,6.0,87.2,Pristine,1,1,0,0,864.71
+DEV-11021,Smartphone,Apple,iPhone 13,iOS,3,1099.0,6,512,6.6,,Pristine,1,1,0,0,1044.05
+DEV-13073,Smartphone,OnePlus,OnePlus 8T,Android,45,899.0,8,128,6.3,74.4,Good,1,1,0,0,287.69
+DEV-13459,Smartphone,Apple,iPhone 13,iOS,32,1199.0,4,1024,6.1,88.7,Heavily Used,1,1,1,1,321.25
+DEV-11585,Smartphone,Samsung,Galaxy S20,Android,32,599.0,8,256,5.9,,Good,1,0,0,0,264.62
+DEV-11955,Laptop,Asus,ZenBook 14,Windows,47,1499.0,16,1024,15.8,77.2,Good,1,1,0,0,575.33
+DEV-13152,Laptop,Apple,MacBook Air M2,macOS,27,1999.0,16,512,14.5,81.4,Fair,0,1,0,1,1036.66
+DEV-12253,Laptop,Dell,XPS 15,Windows,43,1499.0,8,512,14.0,76.8,Good,0,1,0,0,510.06
+DEV-10034,Laptop,HP,Pavilion 15,Windows,6,599.0,32,512,15.4,91.2,Good,0,1,0,0,549.89
+DEV-10775,Laptop,Apple,MacBook Air M1,macOS,34,1299.0,32,512,15.1,82.6,Good,1,1,0,0,925.26
+DEV-12556,Smartphone,Xiaomi,Xiaomi 12 Pro,Android,8,399.0,8,128,6.2,99.2,Fair,1,1,0,1,220.51
+DEV-13499,Smartphone,Samsung,Galaxy Z Flip 4,Android,33,399.0,8,256,6.7,91.7,Pristine,1,1,0,0,256.23
+DEV-11478,Laptop,Asus,ZenBook 14,Windows,18,1499.0,8,1024,14.8,88.3,Fair,1,1,1,1,634.24
+DEV-13003,Smartphone,Apple,iPhone 11,iOS,34,899.0,4,128,6.0,85.6,Fair,0,1,0,1,358.8
+DEV-11390,Smartphone,Apple,iPhone 11,iOS,17,899.0,8,64,6.3,96.1,Fair,0,0,0,1,477.52
+DEV-12139,Laptop,Dell,XPS 13,Windows,17,1099.0,8,512,13.6,90.2,Good,1,1,0,1,759.44
+DEV-11363,Laptop,Apple,MacBook Pro 16 M2,macOS,51,1999.0,8,512,14.9,70.7,Good,1,0,0,0,840.5
+DEV-12945,Smartphone,Apple,iPhone 14 Pro,iOS,17,799.0,6,512,5.9,100.0,Good,1,1,0,0,673.36
+DEV-12612,Smartphone,Samsung,Galaxy S22,Android,5,399.0,6,128,6.0,100.0,Fair,1,1,0,1,265.7
+DEV-13417,Laptop,Lenovo,IdeaPad 5,Linux,52,1999.0,16,256,14.4,83.2,Heavily Used,0,1,1,1,279.98
+DEV-12824,Smartphone,Apple,iPhone 11,iOS,25,899.0,4,256,6.6,96.4,Good,0,0,0,0,608.45
+DEV-12041,Laptop,Dell,XPS 13,Linux,21,1499.0,16,512,16.0,89.6,Fair,0,0,0,1,649.36
+DEV-10241,Laptop,Apple,MacBook Air M2,macOS,18,2499.0,16,512,14.8,89.2,Good,1,1,0,0,2173.99
+DEV-12061,Smartphone,Xiaomi,Xiaomi 12 Pro,Android,21,1199.0,6,256,6.2,94.8,Good,1,1,0,0,669.21
+DEV-12363,Smartphone,Xiaomi,Xiaomi 13,Android,32,799.0,8,128,5.9,95.7,Good,0,1,0,0,350.22
+DEV-10600,Laptop,Lenovo,IdeaPad 5,Windows,46,799.0,16,512,14.3,74.6,Fair,0,1,0,1,209.89
+DEV-12435,Smartphone,Google,Pixel 8,Android,10,799.0,8,256,6.3,100.0,Good,1,1,0,0,672.07
+DEV-11297,Laptop,Lenovo,ThinkPad X1 Carbon,Windows,39,599.0,8,1024,15.8,77.7,Pristine,0,1,0,0,289.16
+DEV-12214,Laptop,Dell,XPS 15,Windows,14,799.0,8,256,15.3,98.6,Heavily Used,0,1,0,1,311.66
+DEV-12888,Smartphone,Apple,iPhone 14 Pro,iOS,7,999.0,6,128,6.2,99.3,Good,1,0,0,0,949.05
+DEV-12068,Laptop,Lenovo,ThinkPad X1 Carbon,Windows,11,1499.0,16,512,13.8,86.7,Good,0,0,0,0,1151.89
+DEV-10646,Laptop,Lenovo,ThinkPad T14,Windows,23,799.0,8,2048,13.9,75.7,Good,1,0,0,1,398.15
+DEV-13890,Smartphone,Apple,iPhone 14 Pro,iOS,37,1199.0,6,256,6.5,86.7,Pristine,1,1,0,0,853.91
+DEV-13556,Smartphone,Samsung,Galaxy S21,Android,49,599.0,6,128,6.2,78.0,Good,1,1,0,0,194.88
+DEV-13202,Laptop,Lenovo,Legion 5 Pro,Windows,36,599.0,32,512,13.6,84.1,Good,1,1,0,0,306.51
+DEV-11528,Laptop,Asus,ZenBook 14,Windows,14,1099.0,32,512,15.7,90.9,Good,0,1,0,0,884.7
+DEV-12879,Smartphone,Apple,iPhone 13,iOS,10,799.0,6,128,5.8,98.3,Good,1,1,0,0,704.21
+DEV-11267,Laptop,HP,Pavilion 15,Windows,26,1499.0,16,256,14.7,88.7,Good,0,1,0,0,789.96
+DEV-13638,Laptop,Lenovo,ThinkPad X1 Carbon,Windows,50,599.0,16,512,15.2,77.3,Fair,1,1,0,1,155.42
+DEV-11899,Smartphone,Samsung,Galaxy S22,Android,52,899.0,6,128,6.3,81.5,Fair,1,1,0,1,208.48
+DEV-10562,Laptop,Apple,MacBook Pro 14 M1,macOS,47,999.0,16,512,13.7,87.3,Good,1,1,0,0,598.36
+DEV-13950,Smartphone,Samsung,Galaxy S21,Android,19,399.0,8,512,6.6,88.6,Fair,0,1,0,1,190.62
+DEV-12734,Laptop,Apple,MacBook Pro 14 M1,macOS,44,1999.0,8,1024,14.6,80.1,Fair,1,1,1,1,700.91
+DEV-13005,Laptop,HP,Pavilion 15,Linux,47,1099.0,8,256,14.8,77.0,Good,1,1,0,1,354.82
+DEV-10189,Smartphone,Apple,iPhone 13,iOS,42,799.0,6,64,6.8,81.7,Good,0,1,0,0,396.46
+DEV-11806,Smartphone,Apple,iPhone 15 Pro,iOS,14,999.0,4,64,6.3,99.5,Fair,1,0,0,1,574.5
+DEV-10975,Laptop,Apple,MacBook Air M2,macOS,20,1999.0,16,512,15.1,81.8,Good,0,1,0,1,1544.11
+DEV-12747,Smartphone,Apple,iPhone 15 Pro,iOS,46,1199.0,4,128,6.5,81.9,Pristine,1,1,0,0,736.84
+DEV-13547,Laptop,HP,Spectre x360,Windows,21,1499.0,8,512,14.4,84.0,Fair,0,0,0,1,643.22
+DEV-12047,Smartphone,Google,Pixel 7 Pro,Android,37,599.0,8,128,6.2,80.0,Good,0,1,0,1,235.81
+DEV-13753,Smartphone,OnePlus,OnePlus 10 Pro,Android,26,899.0,6,128,5.9,90.6,Pristine,0,0,0,0,474.9
+DEV-12558,Laptop,Asus,VivoBook 15,Windows,21,1099.0,8,512,15.7,92.0,Good,1,0,0,0,653.68
+DEV-11082,Laptop,Dell,Inspiron 15,Windows,7,799.0,8,256,15.2,96.8,Fair,0,1,0,1,471.92
+DEV-10474,Laptop,Apple,MacBook Pro 14 M1,macOS,46,999.0,16,256,14.0,81.1,Pristine,1,1,0,0,672.16
+DEV-13632,Laptop,Dell,XPS 15,Windows,38,1999.0,16,256,13.8,83.9,Good,0,1,0,0,904.03
+DEV-12904,Laptop,Apple,MacBook Air M2,macOS,9,999.0,16,512,14.6,83.7,Good,1,0,0,0,949.05
+DEV-10747,Smartphone,Samsung,Galaxy S23 Ultra,Android,6,1199.0,8,128,6.5,96.7,Good,1,1,0,1,1048.89
+DEV-12300,Smartphone,Apple,iPhone 11,iOS,17,1099.0,8,128,6.5,89.9,Fair,0,1,0,1,634.1
+DEV-10021,Smartphone,Apple,iPhone 12,iOS,30,999.0,6,128,6.2,88.4,Good,1,0,0,0,609.78
+DEV-13385,Smartphone,OnePlus,OnePlus 9 Pro,Android,32,1199.0,6,64,6.0,82.2,Good,1,0,0,0,530.8
+DEV-10459,Smartphone,Samsung,Galaxy Z Flip 4,Android,30,399.0,16,64,,83.7,Fair,1,1,0,1,153.29
+DEV-11184,Smartphone,Samsung,Galaxy S21,Android,48,599.0,12,128,5.8,67.6,Heavily Used,0,1,0,1,98.99
+DEV-12324,Laptop,Asus,ZenBook 14,Windows,12,799.0,16,1024,13.7,94.8,Fair,0,1,0,1,461.72
+DEV-10955,Smartphone,Samsung,Galaxy S21,Android,40,1199.0,8,256,6.2,76.5,Pristine,1,0,0,0,566.8
+DEV-11215,Smartphone,Samsung,Galaxy S20,Android,29,899.0,12,256,6.2,82.8,Fair,1,1,1,1,290.76
+DEV-12433,Smartphone,Apple,iPhone 13,iOS,42,899.0,4,128,6.7,83.6,Good,0,1,0,0,459.57
+DEV-12853,Laptop,Lenovo,ThinkPad T14,Windows,2,799.0,8,512,14.8,100.0,Fair,1,0,1,1,469.27
+DEV-13485,Smartphone,Xiaomi,Xiaomi 11T,Android,38,599.0,8,64,6.4,81.7,Fair,0,1,1,1,135.42
+DEV-11515,Smartphone,Apple,iPhone 13,iOS,37,1099.0,6,256,6.3,83.6,Good,1,1,0,0,679.42
+DEV-12391,Laptop,Dell,Inspiron 15,Linux,46,599.0,8,256,14.1,77.3,Fair,0,1,0,1,155.12
+DEV-10769,Smartphone,Xiaomi,Xiaomi 12 Pro,Android,2,599.0,8,128,6.2,93.9,Fair,1,0,0,1,347.65
+DEV-13380,Smartphone,Apple,iPhone 14 Pro,iOS,6,1199.0,4,512,6.7,98.7,Fair,0,1,0,1,872.68
+DEV-11685,Smartphone,Samsung,Galaxy S23 Ultra,Android,30,799.0,8,256,6.4,76.6,Pristine,0,1,0,0,426.44
+DEV-10130,Smartphone,Apple,iPhone 11,iOS,53,899.0,6,128,6.8,81.0,Heavily Used,1,0,0,1,181.88
+DEV-13735,Smartphone,Samsung,Galaxy S22,Android,24,899.0,8,256,6.4,90.7,Fair,1,1,0,1,414.95
+DEV-12919,Laptop,Apple,MacBook Air M2,macOS,12,1999.0,16,256,13.3,98.6,Pristine,1,0,0,0,1899.05
+DEV-13171,Smartphone,Apple,iPhone 14 Pro,iOS,31,899.0,4,128,6.7,82.5,Pristine,1,1,0,0,640.11
+DEV-13444,Laptop,Apple,MacBook Pro 14 M1,macOS,31,1999.0,16,512,14.3,80.1,Good,1,1,0,0,1433.04
+DEV-12135,Smartphone,Apple,iPhone 13,iOS,49,799.0,6,128,6.7,78.6,Good,0,0,0,0,343.06
+DEV-11482,Laptop,Lenovo,Legion 5 Pro,Windows,49,599.0,32,512,14.4,84.0,Pristine,1,1,0,0,256.64
+DEV-10330,Smartphone,OnePlus,OnePlus 9 Pro,Android,14,1199.0,8,256,5.8,95.5,Heavily Used,0,0,1,1,335.54
+DEV-11238,Smartphone,Google,Pixel 6,Android,16,399.0,8,256,6.6,97.9,Fair,0,1,1,1,166.94
+DEV-10466,Smartphone,Samsung,Galaxy S21,Android,27,1199.0,8,128,6.8,87.2,Pristine,1,1,0,0,868.92
+DEV-12169,Laptop,Asus,TUF Gaming A15,Windows,32,1099.0,32,512,15.9,83.3,Good,0,1,0,0,537.95
+DEV-11638,Laptop,Apple,MacBook Pro 14 M1,macOS,16,999.0,8,512,15.9,89.3,Fair,0,0,0,1,606.75
+DEV-13092,Laptop,Dell,Inspiron 15,Windows,15,1999.0,16,1024,14.2,97.4,Good,1,1,0,0,1664.18
+DEV-13772,Smartphone,Apple,iPhone 11,iOS,34,899.0,6,128,6.0,84.2,Pristine,1,1,0,0,676.21
+DEV-11095,Smartphone,Xiaomi,Xiaomi 11T,Android,24,799.0,12,64,6.3,94.8,Good,1,1,0,0,408.53
+DEV-11130,Laptop,Dell,XPS 15,Windows,47,599.0,32,256,15.3,82.5,Fair,1,1,0,1,172.42
+DEV-11294,Smartphone,Apple,iPhone 13,iOS,24,899.0,8,64,6.7,85.5,Heavily Used,0,0,1,1,246.88
+DEV-10860,Laptop,Dell,Inspiron 15,Windows,12,1999.0,8,512,14.4,98.8,Pristine,0,1,0,0,1899.05
+DEV-13507,Smartphone,Xiaomi,Xiaomi 11T,Android,25,599.0,12,256,6.5,90.0,Good,0,0,0,0,275.24
+DEV-13174,Smartphone,Apple,iPhone 14 Pro,iOS,7,1099.0,8,512,6.1,98.4,Good,1,1,0,1,1044.05

@@ -1,0 +1,418 @@
+{
+  "best_model": "Gradient_Boosting",
+  "models_comparison": {
+    "Linear_OLS": {
+      "cv_mae": 84.39,
+      "cv_rmse": 120.2,
+      "cv_r2": 0.9151,
+      "val_metrics": {
+        "MAE": 81.83,
+        "RMSE": 116.29,
+        "MAPE_pct": 20.66,
+        "R2_Score": 0.9185
+      },
+      "test_metrics": {
+        "MAE": 80.9,
+        "RMSE": 116.37,
+        "MAPE_pct": 20.8,
+        "R2_Score": 0.9052
+      }
+    },
+    "Ridge_L2": {
+      "cv_mae": 84.32,
+      "cv_rmse": 120.2,
+      "cv_r2": 0.9152,
+      "val_metrics": {
+        "MAE": 81.65,
+        "RMSE": 116.25,
+        "MAPE_pct": 20.47,
+        "R2_Score": 0.9185
+      },
+      "test_metrics": {
+        "MAE": 80.93,
+        "RMSE": 116.64,
+        "MAPE_pct": 20.7,
+        "R2_Score": 0.9048
+      }
+    },
+    "Lasso_L1": {
+      "cv_mae": 84.68,
+      "cv_rmse": 120.72,
+      "cv_r2": 0.9144,
+      "val_metrics": {
+        "MAE": 81.69,
+        "RMSE": 116.48,
+        "MAPE_pct": 20.06,
+        "R2_Score": 0.9182
+      },
+      "test_metrics": {
+        "MAE": 82.02,
+        "RMSE": 117.47,
+        "MAPE_pct": 20.81,
+        "R2_Score": 0.9034
+      }
+    },
+    "ElasticNet": {
+      "cv_mae": 125.62,
+      "cv_rmse": 178.41,
+      "cv_r2": 0.8135,
+      "val_metrics": {
+        "MAE": 124.86,
+        "RMSE": 176.95,
+        "MAPE_pct": 23.98,
+        "R2_Score": 0.8113
+      },
+      "test_metrics": {
+        "MAE": 117.3,
+        "RMSE": 166.5,
+        "MAPE_pct": 23.44,
+        "R2_Score": 0.806
+      }
+    },
+    "Random_Forest": {
+      "cv_mae": 45.99,
+      "cv_rmse": 68.4,
+      "cv_r2": 0.9723,
+      "val_metrics": {
+        "MAE": 42.25,
+        "RMSE": 62.7,
+        "MAPE_pct": 7.23,
+        "R2_Score": 0.9763
+      },
+      "test_metrics": {
+        "MAE": 41.19,
+        "RMSE": 61.19,
+        "MAPE_pct": 7.38,
+        "R2_Score": 0.9738
+      }
+    },
+    "Gradient_Boosting": {
+      "cv_mae": 29.82,
+      "cv_rmse": 45.0,
+      "cv_r2": 0.9881,
+      "val_metrics": {
+        "MAE": 29.14,
+        "RMSE": 41.89,
+        "MAPE_pct": 4.99,
+        "R2_Score": 0.9894
+      },
+      "test_metrics": {
+        "MAE": 27.44,
+        "RMSE": 41.96,
+        "MAPE_pct": 4.77,
+        "R2_Score": 0.9877
+      }
+    }
+  },
+  "feature_names": [
+    "original_price_usd",
+    "age_months",
+    "ram_gb",
+    "storage_gb",
+    "screen_size_inch",
+    "battery_health_pct",
+    "condition",
+    "device_type_Smartphone",
+    "brand_Asus",
+    "brand_Dell",
+    "brand_Google",
+    "brand_HP",
+    "brand_Lenovo",
+    "brand_OnePlus",
+    "brand_Samsung",
+    "brand_Xiaomi",
+    "os_Linux",
+    "os_Windows",
+    "os_iOS",
+    "os_macOS",
+    "has_original_box",
+    "has_original_charger",
+    "has_screen_damage",
+    "has_body_scratches"
+  ],
+  "ridge_coefficients": [
+    {
+      "feature": "original_price_usd",
+      "coefficient": 278.871,
+      "abs_impact": 278.871
+    },
+    {
+      "feature": "age_months",
+      "coefficient": -165.465,
+      "abs_impact": 165.465
+    },
+    {
+      "feature": "os_macOS",
+      "coefficient": 135.595,
+      "abs_impact": 135.595
+    },
+    {
+      "feature": "has_screen_damage",
+      "coefficient": -102.419,
+      "abs_impact": 102.419
+    },
+    {
+      "feature": "condition",
+      "coefficient": 97.735,
+      "abs_impact": 97.735
+    },
+    {
+      "feature": "os_iOS",
+      "coefficient": 86.93,
+      "abs_impact": 86.93
+    },
+    {
+      "feature": "os_Windows",
+      "coefficient": -61.721,
+      "abs_impact": 61.721
+    },
+    {
+      "feature": "has_body_scratches",
+      "coefficient": -52.646,
+      "abs_impact": 52.646
+    },
+    {
+      "feature": "os_Linux",
+      "coefficient": -51.645,
+      "abs_impact": 51.645
+    },
+    {
+      "feature": "has_original_charger",
+      "coefficient": 46.119,
+      "abs_impact": 46.119
+    },
+    {
+      "feature": "brand_Asus",
+      "coefficient": -40.385,
+      "abs_impact": 40.385
+    },
+    {
+      "feature": "brand_OnePlus",
+      "coefficient": -38.374,
+      "abs_impact": 38.374
+    },
+    {
+      "feature": "brand_Xiaomi",
+      "coefficient": -37.483,
+      "abs_impact": 37.483
+    },
+    {
+      "feature": "brand_HP",
+      "coefficient": -34.063,
+      "abs_impact": 34.063
+    },
+    {
+      "feature": "brand_Google",
+      "coefficient": -26.993,
+      "abs_impact": 26.993
+    },
+    {
+      "feature": "device_type_Smartphone",
+      "coefficient": -22.228,
+      "abs_impact": 22.228
+    },
+    {
+      "feature": "brand_Dell",
+      "coefficient": -19.51,
+      "abs_impact": 19.51
+    },
+    {
+      "feature": "storage_gb",
+      "coefficient": 19.412,
+      "abs_impact": 19.412
+    },
+    {
+      "feature": "brand_Lenovo",
+      "coefficient": -19.408,
+      "abs_impact": 19.408
+    },
+    {
+      "feature": "has_original_box",
+      "coefficient": 16.188,
+      "abs_impact": 16.188
+    },
+    {
+      "feature": "screen_size_inch",
+      "coefficient": 12.049,
+      "abs_impact": 12.049
+    },
+    {
+      "feature": "ram_gb",
+      "coefficient": 11.49,
+      "abs_impact": 11.49
+    },
+    {
+      "feature": "battery_health_pct",
+      "coefficient": 10.709,
+      "abs_impact": 10.709
+    },
+    {
+      "feature": "brand_Samsung",
+      "coefficient": -6.308,
+      "abs_impact": 6.308
+    }
+  ],
+  "random_forest_mdi_importance": [
+    {
+      "feature": "original_price_usd",
+      "importance": 0.6254
+    },
+    {
+      "feature": "age_months",
+      "importance": 0.2165
+    },
+    {
+      "feature": "condition",
+      "importance": 0.1148
+    },
+    {
+      "feature": "os_macOS",
+      "importance": 0.0084
+    },
+    {
+      "feature": "has_body_scratches",
+      "importance": 0.0075
+    },
+    {
+      "feature": "battery_health_pct",
+      "importance": 0.0063
+    },
+    {
+      "feature": "os_iOS",
+      "importance": 0.0053
+    },
+    {
+      "feature": "screen_size_inch",
+      "importance": 0.0036
+    },
+    {
+      "feature": "has_screen_damage",
+      "importance": 0.0024
+    },
+    {
+      "feature": "os_Windows",
+      "importance": 0.0022
+    },
+    {
+      "feature": "storage_gb",
+      "importance": 0.0019
+    },
+    {
+      "feature": "ram_gb",
+      "importance": 0.0017
+    },
+    {
+      "feature": "has_original_charger",
+      "importance": 0.0014
+    },
+    {
+      "feature": "has_original_box",
+      "importance": 0.001
+    },
+    {
+      "feature": "brand_Asus",
+      "importance": 0.0003
+    },
+    {
+      "feature": "brand_Xiaomi",
+      "importance": 0.0003
+    },
+    {
+      "feature": "brand_Dell",
+      "importance": 0.0002
+    },
+    {
+      "feature": "brand_Lenovo",
+      "importance": 0.0002
+    },
+    {
+      "feature": "brand_Samsung",
+      "importance": 0.0002
+    },
+    {
+      "feature": "device_type_Smartphone",
+      "importance": 0.0001
+    },
+    {
+      "feature": "brand_Google",
+      "importance": 0.0001
+    },
+    {
+      "feature": "brand_HP",
+      "importance": 0.0001
+    },
+    {
+      "feature": "brand_OnePlus",
+      "importance": 0.0001
+    },
+    {
+      "feature": "os_Linux",
+      "importance": 0.0
+    }
+  ],
+  "best_model_permutation_importance": [
+    {
+      "feature": "original_price_usd",
+      "mean_importance": 1.243
+    },
+    {
+      "feature": "age_months",
+      "mean_importance": 0.49
+    },
+    {
+      "feature": "condition",
+      "mean_importance": 0.203
+    },
+    {
+      "feature": "os",
+      "mean_importance": 0.051
+    },
+    {
+      "feature": "has_body_scratches",
+      "mean_importance": 0.012
+    },
+    {
+      "feature": "has_screen_damage",
+      "mean_importance": 0.011
+    },
+    {
+      "feature": "has_original_charger",
+      "mean_importance": 0.005
+    },
+    {
+      "feature": "battery_health_pct",
+      "mean_importance": 0.004
+    },
+    {
+      "feature": "ram_gb",
+      "mean_importance": 0.003
+    },
+    {
+      "feature": "storage_gb",
+      "mean_importance": 0.003
+    },
+    {
+      "feature": "has_original_box",
+      "mean_importance": 0.002
+    },
+    {
+      "feature": "brand",
+      "mean_importance": 0.001
+    },
+    {
+      "feature": "device_type",
+      "mean_importance": 0.0
+    },
+    {
+      "feature": "model_name",
+      "mean_importance": 0.0
+    },
+    {
+      "feature": "screen_size_inch",
+      "mean_importance": 0.0
+    }
+  ],
+  "training_samples": 2800,
+  "validation_samples": 600,
+  "test_samples": 600
+}
