@@ -258,3 +258,9 @@ pytest tests/ -v
 - **Lead Engineer:** [Dhanush Chanchali](https://github.com/dhanush-chanchali) (`dhanush.2482006@gmail.com`)
 - **Project:** ReValue AI — ML Electronics Resale Valuation Platform
 - **Course Alignment:** Modules CO-1 through CO-6 (Machine Learning Lifecycle to Production Engineering)
+
+
+deployed URL
+
+https://revalueai-xhrrkbmbuexrswr3ermwnf.streamlit.app/
+
