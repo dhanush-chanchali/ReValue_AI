@@ -88,6 +88,15 @@ LUXURY_CSS = """
     box-sizing: border-box;
 }
 
+/* Custom Glowing Cyber-Precision Cursor Styling */
+html, body, .stApp {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpolygon points='2,2 21,9 12,12 9,21' fill='%2300e599' stroke='%23d4af37' stroke-width='1.5' stroke-linejoin='round' filter='drop-shadow(0 0 6px rgba(0,229,153,0.9))'/%3E%3C/svg%3E"), auto !important;
+}
+
+button, a, input, select, textarea, [role="button"], [role="tab"], .stButton, .stSelectbox, .stRadio, .stSlider {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28'%3E%3Ccircle cx='14' cy='14' r='8' fill='none' stroke='%2300e599' stroke-width='2' stroke-dasharray='4 2'/%3E%3Ccircle cx='14' cy='14' r='3.5' fill='%23d4af37'/%3E%3C/svg%3E") 14 14, pointer !important;
+}
+
 /* Force dark theme throughout entire Streamlit frame with luxury ambient glow */
 html, body, .stApp, 
 [data-testid="stAppViewContainer"], 
@@ -587,18 +596,27 @@ st.markdown(LUXURY_CSS, unsafe_allow_html=True)
 CURSOR_JS = """
 <script>
 (function() {
-    try {
-        const doc = window.parent.document;
-        if (!doc) return;
+    function initReValueCursor() {
+        try {
+            const doc = (window.parent && window.parent.document) ? window.parent.document : document;
+            if (!doc || !doc.body) return;
 
-        let dot = doc.getElementById('revalue-cursor-dot');
-        let ring = doc.getElementById('revalue-cursor-ring');
+            // Remove any stale elements to ensure clean single-instance lifecycle
+            const prevStyle = doc.getElementById('revalue-cursor-style');
+            if (prevStyle) prevStyle.remove();
+            const prevDot = doc.getElementById('revalue-cursor-dot');
+            if (prevDot) prevDot.remove();
+            const prevRing = doc.getElementById('revalue-cursor-ring');
+            if (prevRing) prevRing.remove();
+            const prevOrbit = doc.getElementById('revalue-cursor-orbit');
+            if (prevOrbit) prevOrbit.remove();
 
-        if (!dot) {
-            dot = doc.createElement('div');
+            const dot = doc.createElement('div');
             dot.id = 'revalue-cursor-dot';
-            ring = doc.createElement('div');
+            const ring = doc.createElement('div');
             ring.id = 'revalue-cursor-ring';
+            const orbit = doc.createElement('div');
+            orbit.id = 'revalue-cursor-orbit';
 
             const style = doc.createElement('style');
             style.id = 'revalue-cursor-style';
@@ -606,58 +624,112 @@ CURSOR_JS = """
                 #revalue-cursor-dot {
                     position: fixed;
                     top: 0; left: 0;
-                    width: 8px; height: 8px;
-                    background: #00e599;
+                    width: 10px; height: 10px;
+                    background: radial-gradient(circle, #00e599 35%, #059669 100%);
+                    border: 1.5px solid #d4af37;
                     border-radius: 50%;
                     pointer-events: none;
-                    z-index: 9999999;
+                    z-index: 2147483647;
                     transform: translate(-50%, -50%);
-                    box-shadow: 0 0 14px #00e599, 0 0 22px #d4af37;
-                    transition: width 0.15s, height 0.15s, background-color 0.2s;
+                    box-shadow: 0 0 14px #00e599, 0 0 26px rgba(212, 175, 55, 0.7);
+                    transition: transform 0.12s cubic-bezier(0.34, 1.56, 0.64, 1), background-color 0.2s;
+                    will-change: left, top, transform;
                 }
                 #revalue-cursor-ring {
                     position: fixed;
                     top: 0; left: 0;
                     width: 38px; height: 38px;
-                    border: 1.5px solid rgba(212, 175, 55, 0.65);
+                    border: 1.8px solid rgba(212, 175, 55, 0.75);
                     border-radius: 50%;
                     pointer-events: none;
-                    z-index: 9999998;
+                    z-index: 2147483646;
                     transform: translate(-50%, -50%);
+                    box-shadow: 0 0 18px rgba(212, 175, 55, 0.35), inset 0 0 12px rgba(0, 229, 153, 0.2);
                     transition: width 0.22s cubic-bezier(0.2, 0.8, 0.2, 1), 
                                 height 0.22s cubic-bezier(0.2, 0.8, 0.2, 1), 
-                                border-color 0.2s;
-                    box-shadow: 0 0 20px rgba(212, 175, 55, 0.25), inset 0 0 10px rgba(0, 229, 153, 0.15);
+                                border-color 0.2s,
+                                box-shadow 0.2s;
+                    will-change: left, top, width, height;
+                }
+                #revalue-cursor-orbit {
+                    position: fixed;
+                    top: 0; left: 0;
+                    width: 54px; height: 54px;
+                    border: 1.2px dashed rgba(0, 229, 153, 0.55);
+                    border-radius: 50%;
+                    pointer-events: none;
+                    z-index: 2147483645;
+                    transform: translate(-50%, -50%);
+                    animation: rvOrbitSpin 7s linear infinite;
+                    transition: width 0.28s ease, height 0.28s ease, border-color 0.25s;
+                    will-change: left, top, transform;
+                }
+                @keyframes rvOrbitSpin {
+                    0%   { transform: translate(-50%, -50%) rotate(0deg); }
+                    100% { transform: translate(-50%, -50%) rotate(360deg); }
                 }
                 .rv-sparkle-trail {
                     position: fixed;
-                    width: 4px; height: 4px;
+                    width: 5px; height: 5px;
                     border-radius: 50%;
                     pointer-events: none;
-                    z-index: 9999997;
+                    z-index: 2147483644;
                     transform: translate(-50%, -50%);
-                    animation: rvTrailSpark 0.55s ease-out forwards;
+                    animation: rvTrailBurst 0.65s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+                    will-change: transform, opacity;
                 }
-                @keyframes rvTrailSpark {
+                @keyframes rvTrailBurst {
                     0% {
-                        opacity: 0.9;
-                        transform: translate(-50%, -50%) scale(1.4);
+                        opacity: 1;
+                        transform: translate(-50%, -50%) scale(1.6);
+                    }
+                    50% {
+                        opacity: 0.75;
+                        transform: translate(calc(-50% + var(--dx, 0px)), calc(-50% + var(--dy, -8px))) scale(1.1);
                     }
                     100% {
                         opacity: 0;
-                        transform: translate(-50%, -50%) scale(0.2);
+                        transform: translate(calc(-50% + var(--dx, 0px) * 1.6), calc(-50% + var(--dy, -16px))) scale(0.1);
+                    }
+                }
+                .rv-click-shockwave {
+                    position: fixed;
+                    border-radius: 50%;
+                    pointer-events: none;
+                    z-index: 2147483648;
+                    transform: translate(-50%, -50%);
+                    animation: rvShockwaveBurst 0.55s cubic-bezier(0.1, 0.8, 0.3, 1) forwards;
+                }
+                @keyframes rvShockwaveBurst {
+                    0% {
+                        width: 8px;
+                        height: 8px;
+                        opacity: 1;
+                        border: 2.5px solid #00e599;
+                        box-shadow: 0 0 18px #00e599;
+                    }
+                    100% {
+                        width: 95px;
+                        height: 95px;
+                        opacity: 0;
+                        border: 1px solid #d4af37;
+                        box-shadow: 0 0 35px rgba(212, 175, 55, 0.6);
                     }
                 }
             `;
             doc.head.appendChild(style);
             doc.body.appendChild(dot);
             doc.body.appendChild(ring);
+            doc.body.appendChild(orbit);
 
             let mouseX = window.innerWidth / 2;
             let mouseY = window.innerHeight / 2;
             let ringX = mouseX;
             let ringY = mouseY;
+            let orbitX = mouseX;
+            let orbitY = mouseY;
             let lastSparkleTime = 0;
+            let isHovering = false;
 
             doc.addEventListener('mousemove', (e) => {
                 mouseX = e.clientX;
@@ -665,51 +737,98 @@ CURSOR_JS = """
                 dot.style.left = mouseX + 'px';
                 dot.style.top = mouseY + 'px';
 
-                const now = Date.now();
-                if (now - lastSparkleTime > 32) {
+                const now = performance.now();
+                if (now - lastSparkleTime > 26) {
                     lastSparkleTime = now;
                     const sparkle = doc.createElement('div');
                     sparkle.className = 'rv-sparkle-trail';
                     sparkle.style.left = mouseX + 'px';
                     sparkle.style.top = mouseY + 'px';
+                    
                     const isGold = Math.random() > 0.45;
-                    sparkle.style.background = isGold ? '#d4af37' : '#00e599';
-                    sparkle.style.boxShadow = isGold ? '0 0 8px #d4af37' : '0 0 8px #00e599';
+                    const col = isGold ? '#d4af37' : '#00e599';
+                    sparkle.style.background = col;
+                    sparkle.style.boxShadow = '0 0 10px ' + col;
+                    
+                    const angle = Math.random() * Math.PI * 2;
+                    const dist = 6 + Math.random() * 14;
+                    sparkle.style.setProperty('--dx', (Math.cos(angle) * dist) + 'px');
+                    sparkle.style.setProperty('--dy', (Math.sin(angle) * dist) + 'px');
+                    
                     doc.body.appendChild(sparkle);
-                    setTimeout(() => { sparkle.remove(); }, 550);
+                    setTimeout(() => { sparkle.remove(); }, 650);
                 }
-            });
+            }, { passive: true });
 
-            function renderRing() {
-                ringX += (mouseX - ringX) * 0.18;
-                ringY += (mouseY - ringY) * 0.18;
+            function renderPhysics() {
+                ringX += (mouseX - ringX) * 0.22;
+                ringY += (mouseY - ringY) * 0.22;
                 ring.style.left = ringX + 'px';
                 ring.style.top = ringY + 'px';
-                requestAnimationFrame(renderRing);
+
+                orbitX += (mouseX - orbitX) * 0.14;
+                orbitY += (mouseY - orbitY) * 0.14;
+                orbit.style.left = orbitX + 'px';
+                orbit.style.top = orbitY + 'px';
+
+                requestAnimationFrame(renderPhysics);
             }
-            requestAnimationFrame(renderRing);
+            requestAnimationFrame(renderPhysics);
+
+            // Interactive Click Shockwave
+            doc.addEventListener('pointerdown', (e) => {
+                const shock = doc.createElement('div');
+                shock.className = 'rv-click-shockwave';
+                shock.style.left = e.clientX + 'px';
+                shock.style.top = e.clientY + 'px';
+                doc.body.appendChild(shock);
+                setTimeout(() => { shock.remove(); }, 550);
+
+                dot.style.transform = 'translate(-50%, -50%) scale(0.65)';
+                setTimeout(() => {
+                    dot.style.transform = isHovering ? 'translate(-50%, -50%) scale(1.5)' : 'translate(-50%, -50%) scale(1)';
+                }, 140);
+            });
 
             // Magnetic highlight expansion when hovering on interactive controls
             doc.addEventListener('mouseover', (e) => {
-                const target = e.target.closest('button, select, input, [role="button"], .stSelectbox, .stRadio');
+                const target = e.target.closest('button, select, input, [role="button"], [role="tab"], .stSelectbox, .stRadio, .stSlider, a');
                 if (target) {
-                    ring.style.width = '56px';
-                    ring.style.height = '56px';
+                    isHovering = true;
+                    ring.style.width = '58px';
+                    ring.style.height = '58px';
                     ring.style.borderColor = '#00e599';
-                    ring.style.boxShadow = '0 0 24px rgba(0, 229, 153, 0.4)';
-                    dot.style.transform = 'translate(-50%, -50%) scale(1.4)';
+                    ring.style.boxShadow = '0 0 28px rgba(0, 229, 153, 0.55), inset 0 0 15px rgba(0, 229, 153, 0.25)';
+                    
+                    orbit.style.width = '74px';
+                    orbit.style.height = '74px';
+                    orbit.style.borderColor = '#d4af37';
+                    orbit.style.animationDuration = '3s';
+
+                    dot.style.transform = 'translate(-50%, -50%) scale(1.5)';
+                    dot.style.boxShadow = '0 0 20px #00e599, 0 0 32px #d4af37';
                 }
             });
+
             doc.addEventListener('mouseout', (e) => {
-                const target = e.target.closest('button, select, input, [role="button"], .stSelectbox, .stRadio');
+                const target = e.target.closest('button, select, input, [role="button"], [role="tab"], .stSelectbox, .stRadio, .stSlider, a');
                 if (target) {
+                    isHovering = false;
                     ring.style.width = '38px';
                     ring.style.height = '38px';
-                    ring.style.borderColor = 'rgba(212, 175, 55, 0.65)';
-                    ring.style.boxShadow = '0 0 20px rgba(212, 175, 55, 0.25)';
+                    ring.style.borderColor = 'rgba(212, 175, 55, 0.75)';
+                    ring.style.boxShadow = '0 0 18px rgba(212, 175, 55, 0.35), inset 0 0 12px rgba(0, 229, 153, 0.2)';
+                    
+                    orbit.style.width = '54px';
+                    orbit.style.height = '54px';
+                    orbit.style.borderColor = 'rgba(0, 229, 153, 0.55)';
+                    orbit.style.animationDuration = '7s';
+
                     dot.style.transform = 'translate(-50%, -50%) scale(1)';
+                    dot.style.boxShadow = '0 0 14px #00e599, 0 0 26px rgba(212, 175, 55, 0.7)';
                 }
             });
+
             // ── Real-Time 60fps Battery Slider & Display Card Synchronizer ──
             function syncBatteryDisplay() {
                 try {
@@ -756,13 +875,26 @@ CURSOR_JS = """
             doc.addEventListener('change', syncBatteryDisplay, true);
             doc.addEventListener('click', syncBatteryDisplay, true);
             setInterval(syncBatteryDisplay, 30);
+        } catch(err) {
+            // Fallback gracefully
         }
-    } catch(err) {
-        // Fallback gracefully
     }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initReValueCursor);
+    } else {
+        initReValueCursor();
+    }
+    setTimeout(initReValueCursor, 200);
 })();
 </script>
 """
+
+# Inject cursor via st.html (un-sandboxed direct DOM execution) and components.html fallback
+try:
+    st.html(CURSOR_JS, unsafe_allow_javascript=True)
+except Exception:
+    pass
 components.html(CURSOR_JS, height=0, width=0)
 
 # ─────────────────────────────────────────────────────────────────────────────
